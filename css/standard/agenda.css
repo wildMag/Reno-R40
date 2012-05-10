@@ -1,0 +1,5 @@
+/* -----------------------------------------------------
+Loading CSS files for screen media
+----------------------------------------------------- */
+@import url(../custom/agenda.css);
+@import url(../custom/datepicker.css);

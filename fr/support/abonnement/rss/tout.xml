@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>Toutes les nouveautés de l'ILNAS</title>
+  <description>Toutes les nouveautés de l'ILNAS</description>
+  <copyright>ILNAS - Grand-Duché de Luxembourg</copyright>
+  <link>http://www.ilnas.public.lu/fr/</link>
+  <language>fr-LU</language>
+  <image>
+   <title>Toutes les nouveautés de l'ILNAS</title>
+   <link>http://www.ilnas.public.lu/fr/</link>
+   <url>http://www.ilnas.public.lu/pictures/rss/logo.gif</url>
+   <description>Gouvernement du Grand-Duché de Luxembourg</description>
+   <width>80</width>
+   <height>80</height>
+  </image>
+  <ttl>1440</ttl>
+  <skipHours>
+   <hour>20</hour>
+   <hour>21</hour>
+   <hour>22</hour>
+   <hour>23</hour>
+   <hour>0</hour>
+   <hour>1</hour>
+   <hour>2</hour>
+   <hour>3</hour>
+   <hour>4</hour>
+   <hour>5</hour>
+   <hour>6</hour>
+  </skipHours>
+  <skipDays>
+   <day>Saturday</day>
+   <day>Sunday</day>
+  </skipDays>
+  <pubDate>Mon, 28 Mar 2011 10:34:09 +0000</pubDate>
+  <lastBuildDate>Mon, 28 Mar 2011 10:34:09 +0000</lastBuildDate>
+  <item>
+   <title>ILNAS OLN Registre national des experts inscrits TCs (Version 33)</title>
+   <description>ILNAS OLN Registre national des experts inscrits TCs (Version 33)</description>
+   <pubDate>Thu, 24 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/brochures-information/ILNAS-OLN-Registre-national-experts-inscrits-TCs-V33.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/brochures-information/ILNAS-OLN-Registre-national-experts-inscrits-TCs-V33.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Annexe technique Administration de la gestion de l'eau N°. 1/004 selon la norme : ISO/CEI 17025 : 2005</title>
+   <description>Annexe au certificat d'accréditation N°. 1/004 Selon la norme : ISO/CEI 17025 : 2005 Organisme : Administration de la Gestion de l'Eau – Division du Laboratoire 1A, rue Auguste Lumière L-1950 Luxembourg Version de l'annexe technique : 03 du 24 mars 2011</description>
+   <pubDate>Wed, 23 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/essais-et-etalonnages/lee/lee-v03-17025.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/essais-et-etalonnages/lee/lee-v03-17025.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelles normes ISO - Semaine 12</title>
+   <description>Nouvelles normes ISO - Semaine 12</description>
+   <pubDate>Wed, 23 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine12.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine12.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Le Laboratoire de Procréation Médicalement Assistée du Centre Hospitalier de Luxembourg a reçu l'accréditation selon la norme ISO 15189</title>
+   <description>Le laboratoire de PMA du CHL vient d'obtenir son accréditation selon la norme ISO 15189. Cette accréditation permet la reconnaissance de l'efficacité de son système qualité, démontre la compétence technique de l'ensemble de son personnel ainsi que la qualité des prestations fournies par le laboratoire.</description>
+   <pubDate>Mon, 21 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/laboratoire-pma-chl-iso-15189/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/laboratoire-pma-chl-iso-15189/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>La Division Bactériologie-Parasitologie du LNS a reçu l'accréditation selon la norme ISO/CEI 17025</title>
+   <description>La Division de Bactériologie-Parasitologie du LNS a été accréditée selon la norme ISO/CEI 17025 pour l'identification, le sérotypage et l'antibiogramme des salmonelles.</description>
+   <pubDate>Mon, 21 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/lns-division-bacteriologie-iso-cei-17025/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/lns-division-bacteriologie-iso-cei-17025/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Mise en application de nouvelles normes européennes sur le plan national</title>
+   <description>L'ILNAS en tant qu'Organisme luxembourgeois de normalisation a notamment pour mission de publier les références des nouvelles normes européennes applicables à l'échelle nationale. Pour le premier trimestre 2011, 3393 nouvelles normes européennes complètent le catalogue des normes mises en application au Luxembourg.</description>
+   <pubDate>Wed, 16 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/mise-en-application-de-nouvelles-normes-europeennes-sur-le_plan-national/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/mise-en-application-de-nouvelles-normes-europeennes-sur-le_plan-national/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Fiche client CHL - Laboratoire de procréation médicalement assistée</title>
+   <description>Nom de l'organisme CHL - Laboratoire de procréation médicalement assistée Numéro d'accréditation 1/021 Adresse 4, rue Barblé L-1210 LuxembourgLUXEMBOURG Accréditation selon les normes ISO 15189 : 2007 Validité de l'accréditation 14 mars 2016 Date d'émission 14 mars 2011</description>
+   <pubDate>Tue, 15 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/essais-et-etalonnages/chl-laboratoire-de-procreation/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/essais-et-etalonnages/chl-laboratoire-de-procreation/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Fiche client Laboratoire National de Santé - Division de Bactériologie-Parasitologie</title>
+   <description>Nom de l'organisme Laboratoire National de Santé - Division de Bactériologie-Parasitologie Numéro d'accréditation 1/020 Adresse 42, rue du Laboratoire L-1911 LuxembourgLUXEMBOURG Accréditation selon les normes ISO 17025 : 2005 Validité de l'accréditation 14 mars 2016 Date d'émission 14 mars 2011</description>
+   <pubDate>Mon, 14 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/essais-et-etalonnages/lns-bacteriologie/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/essais-et-etalonnages/lns-bacteriologie/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelles normes ISO - Semaine 11</title>
+   <description>Nouvelles normes ISO - Semaine 11</description>
+   <pubDate>Mon, 14 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine11.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine11.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Annexe technique LuxTrust S.A. version 02</title>
+   <description>Annexe technique LuxTrust S.A. version 02</description>
+   <pubDate>Wed, 09 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/confiance-numerique/pki/psc-accredites/luxtrust/annexe-technique-v-02.PDF?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/confiance-numerique/pki/psc-accredites/luxtrust/annexe-technique-v-02.PDF?from=rss</guid>
+  </item>
+  <item>
+   <title>Annexe technique Société Nationale de Certification et d'Homologation sàrl N°. 6/001 selon la norme ISO/CEI 17021 : 2006</title>
+   <description>Annexe technique Société Nationale de Certification et d'Homologation sàrl N°. 4/001 selon la norme ISO/CEI 17021 : 2006 Version 06</description>
+   <pubDate>Tue, 08 Mar 2011 14:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/certification/snch-17021/snch-17021-v06.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/accreditation-oec/oec-accredites/certification/snch-17021/snch-17021-v06.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelles normes ISO - Semaine 10</title>
+   <description>Nouvelles normes ISO - Semaine 10</description>
+   <pubDate>Sun, 06 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine10.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine10.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Prix luxembourgeois de la qualité 2011: Appel à candidatures</title>
+   <description>Toutes les Petites et Moyennes Entreprises installées au Luxembourg, qui souhaitent se démarquer de leurs concurrents devraient postuler au Prix Luxembourgeois de la Qualité. Pourquoi ? Parce que c'est un signe de QUALITE pour les clients, un signe qui peut influencer leur décision d'achat. C'est également un bon moyen d'obtenir un diagnostic de son organisation.</description>
+   <pubDate>Tue, 01 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Prix-luxembourgeois-de-la-qualite-2011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Prix-luxembourgeois-de-la-qualite-2011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Laboratoire de l'Hôpital Kirchberg - Accréditation 15189</title>
+   <description>Le laboratoire de l'Hôpital Kirchberg réalise plus d'un million d'analyses par an dans des domaines tels que la biochimie, l'hématologie, la sérologie, la bactériologie, etc. Le laboratoire est opérationnel 24 heures sur 24 et ceci tous les jours de l'année. En répondant aux critères définis dans le référentiel international, il garantit aux patients et aux médecins un service optimal en matière de gestion et de qualité.</description>
+   <pubDate>Sun, 27 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Laboratoire-Hopital-Kirchberg/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Laboratoire-Hopital-Kirchberg/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelles normes ISO - Semaine 09</title>
+   <description>Nouvelles normes ISO - Semaine 09</description>
+   <pubDate>Sun, 27 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine09.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine09.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>PME et normes : &quot;Guide to the European Standardization Process&quot; (2nd revised version)</title>
+   <description>PME et normes : &quot;Guide to the European Standardization Process&quot; (2nd revised version)</description>
+   <pubDate>Thu, 24 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/brochures-information/SMEs-and-Standards-v2.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/brochures-information/SMEs-and-Standards-v2.pdf?from=rss</guid>
+  </item>
+  <item>
+   <title>Management de l'énergie : publication prochaine de la norme ISO 50001</title>
+   <description>La publication de la norme internationale ISO 50001 relative aux exigences et lignes directrices pour l'utilisation de l'énergie est prévue pour le troisième trimestre 2011. Cette norme établira, pour les installations industrielles, les établissements commerciaux et les organisations dans leur intégralité, un cadre de gestion des ressources énergétiques.</description>
+   <pubDate>Thu, 24 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Management-de-l-energie-publication-prochaine-de-la-norme-ISO-500011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Management-de-l-energie-publication-prochaine-de-la-norme-ISO-500011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Union européenne – Consultation sur les signatures électroniques</title>
+   <description>Dans le cadre de la stratégie numérique « Une stratégie numérique pour l'Europe » (« A digital agenda for Europe »), l'Union européenne lance une consultation sur les signatures électroniques.</description>
+   <pubDate>Thu, 24 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Union-europeenne-Consultation-sur-les-signatures-electroniques/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Union-europeenne-Consultation-sur-les-signatures-electroniques/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Publication de la norme ISO/IEC 17021 :2011</title>
+   <description>En vue de renforcer la valeur de la certification des systèmes de management, le comité ISO/CASCO a révisé la norme ISO/IEC 17021:2006 - Exigences pour les organismes procédant à l'audit et à la certification de systèmes de management. (Management de la qualité, management environnemental et management de la sécurité des denrées alimentaires).</description>
+   <pubDate>Wed, 23 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Publication-de-la-norme-ISO_IEC-17021_2011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Publication-de-la-norme-ISO_IEC-17021_2011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelles normes ISO - Semaine 08</title>
+   <description>Nouvelles normes ISO - Semaine 08</description>
+   <pubDate>Mon, 21 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine08.pdf?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/publications/normalisation/normes-iso/iso-semaine08.pdf?from=rss</guid>
+  </item>
+ </channel>
+
+</rss>

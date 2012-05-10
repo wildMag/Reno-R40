@@ -1,0 +1,80 @@
+/* Nouveau sur ce site 
+ ----------------------------------------------------- */
+#news {
+	margin:2em 0;
+	position:relative;
+}
+#news .subcategories {
+	background-image:none;
+	margin:0;
+	padding:0;
+}
+#news div.byDate {
+	padding:0 1em;
+}
+#news ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#news ul li {
+	color:#2F6EAC;
+	font-size:100%;
+	font-weight:bold;
+	margin:0.5em 0 0;
+}
+#news ul li div.level1 {
+	border-bottom:1px solid #D6E1EF;
+	border-left:1px solid #D6E1EF;
+	border-right:1px solid #D6E1EF;
+	margin-bottom:1em;
+}
+#news div.level1 ul {
+	list-style-type:circle;
+	margin-bottom:0.5em;
+	padding-left:2em;
+	padding-top:0.5em;
+	text-transform:none;
+}
+#news div.level1 ul li {
+	font-size:90%;
+	font-weight:normal;
+	line-height:95%;
+	margin:0 0 0.5em;
+	text-transform:none;
+}
+#news .more a {
+	background:url("../../pictures/layout/homepage/arrows.gif") center right no-repeat;
+	display:block;
+	padding-right:20px;
+}
+#news div.byDate ul li div.level1 {
+	border:0;
+}
+#news div.level1 ul li a:hover, #news div.level1 ul li a:focus, #news div.level1 ul li a:visited:hover {
+	text-decoration:underline;
+}
+#news .subcategories a:hover {
+	color:#4B637D;
+}
+#news .subcategories, #news .subcategories a:link, #news .subcategories a:visited {
+	color:#2F6EAC;
+}
+#news .text {
+	font-size:80%;
+	font-weight:normal;
+}
+#news .newsboxtitle {
+	background-color:#D6E1EF;
+	background-image:none;
+	font-size:1em;
+	margin-top:1em;
+	padding:0;
+}
+#news .newsboxtitletxt {
+	color:#036;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-left:5px;
+}

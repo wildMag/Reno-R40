@@ -1,0 +1,17 @@
+body {
+  font-size:80%;
+}
+
+#Ccontent #rightCol { 
+	zoom:1; 
+	position:relative; 
+}
+/* Gallery */
+#middleCol #gallery .inside li {
+	
+}
+#middleCol #gallery .inside .tools li {
+	border:0;
+}
+/* fin Gallery */
+

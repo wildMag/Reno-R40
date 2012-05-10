@@ -1,0 +1,255 @@
+/* Photo gallery 
+ ----------------------------------------------------- 
+ Liste horizontale de 3 photos (type thumbnails) 
+	   avec description  
+ ----------------------------------------------------- */
+.container3col {
+	width:100%;
+	color:#2B66A0;
+	font-size:80%;
+	line-height:140%;
+}
+.container3col a:link, .container3col a:visited {
+	text-decoration:none;
+}
+.container3col p {
+	float:left;
+	width:33%;
+	height:150px;
+	text-align:center;
+	overflow:hidden;
+	margin:0;
+}
+.container3col img {
+	margin-bottom:0.5em;
+}
+.container3col a:hover, .container3col a:focus, .container3col a:visited:hover {
+	text-decoration:underline;
+}
+.container3col .break {
+	clear:left;
+}
+/* Photo gallery 
+ ----------------------------------------------------- 
+ Liste de photos verticale (type thumbnails) avec 
+	   description et telechargement haute resolution 
+ ----------------------------------------------------- */
+.galleryThumb140 {
+	color:#2B66A0;
+}
+.galleryDownload {
+	background-color:#FFF;
+	border:1px solid #E2E5EF;
+}
+a.galleryDownload:link img, a.galleryDownload:visited img {
+	background-color:#4774B0;
+}
+a.galleryDownload:active img, a.galleryDownload:hover img, a.galleryDownload:visited:hover img {
+	background-color:#3232B6;
+}
+/* Photo gallery 
+ ----------------------------------------------------- 
+ Liste de photos verticale (type thumbnails) avec 
+   description et techargement haute resolution 
+ ----------------------------------------------------- */
+.embeddedGallery {
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+div.embeddedGallery .galleryThumb140 {
+	display:inline;
+	float:left;
+	font-size:80%;
+	padding:0;
+	text-align:center;
+	width:140px;
+}
+div.embeddedGallery .desc {
+	margin-left:150px;
+	padding:0;
+}
+div.embeddedGallery .desc h1, div.embeddedGallery .desc h1 a {
+	border-bottom:0;
+	font-size:100%;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+div.embeddedGallery div.desc .metaRow {
+	margin:2px auto 5px;
+}
+div.embeddedGallery .copyright {
+	color:#999;
+	font-size:inherit;
+	margin-bottom:1em;
+}
+.galleryLegend {
+	background:#E2E5EF;
+	border:1px solid #E2E5EF;
+	margin:0;
+	padding:1px 4px;
+	text-align:left;
+}
+div.embeddedGallery .galleryDownload {
+	padding:3px 5px;
+}
+div.embeddedGallery .galSep {
+	clear:left;
+	content:".";
+	display:block;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+	visibility:hidden;
+}
+div.embeddedGallery img.galleryImg {
+	border:0;
+	margin:0;
+	position:relative;
+	top:0;
+}
+/* Zoom sur une photo avec description et mini-thumbnails
+   des autres photos disponibles dans la meme galerie 
+ ----------------------------------------------------- */
+#standaloneGallery {
+	margin:0 116px 0 auto;
+	text-align:center;
+}
+/* Zoom sur une photo avec description et mini-thumbnails
+	   des autres photos disponibles dans la meme galerie 
+ ----------------------------------------------------- */
+#standaloneGalleryMenu {
+	border-color:#ccc;
+	float:right;
+	margin-top:1.9em;
+	overflow:hidden;
+	padding:0;
+	text-align:center;
+	width:115px;
+}
+.standaloneGalleryHorizontal #standaloneGalleryMenu {
+	float:none;
+	margin-top:0;
+	width:auto;
+}
+#standaloneGallery .galleryContent {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	width:460px;
+}
+#standaloneGalleryMenu .galleryContent {
+	margin-left:15px;
+	text-align:center;
+}
+#standaloneGallery .imageDetail {
+	font-size:80%;
+	margin-bottom:0.8em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+}
+#standaloneGallery .imageDescription {
+	margin-bottom:0.8em;
+}
+.galSpacer {
+	content:".";
+	display:block;
+	font-size:1px;
+	height:1px;
+	line-height:5px;
+	visibility:hidden;
+}
+#standaloneGalleryMenu .thumbnail {
+	margin:auto;
+	text-align:center;
+	width:90px;
+}
+.standaloneGalleryHorizontal #standaloneGalleryMenu .thumbnail {
+	background-color:#eee;
+	border-left:1px solid #BCBCBC;
+	float:left;
+	height:100px;
+	margin-bottom:5px;
+	padding:20px;
+}
+#contentBody #standaloneGalleryMenu .on {
+	border:3px solid #FF9933;
+}
+#contentBody .standaloneGalleryHorizontal #standaloneGalleryMenu .on {
+	background-color:#FFBA75;
+	border:0;
+}
+#standaloneGalleryMenu hr {
+	background-color:#ccc;
+	border:0;
+	color:#ccc;
+	height:1px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	position:relative;
+	width:86px;
+}
+#standaloneGallery .navigation {
+	color:#2F6EAC;
+	display:block;
+	font-size:75%;
+	font-weight:bold;
+	height:2.5em;
+	text-align:right;
+}
+#standaloneGallery .navigation .right {
+	margin:auto;
+	overflow:visible;
+}
+.navigationLink {
+	font-size:75%;
+	font-weight:bold;
+}
+div.embeddedGallery .desc h1 a:link, div.embeddedGallery .desc h1 a:visited, a.galleryDownload:link, a.galleryDownload:visited {
+	color:#4774B0;
+}
+div.embeddedGallery .desc h1 a:active, div.embeddedGallery .desc h1 a:hover, div.embeddedGallery .desc h1 a:focus, div.embeddedGallery .desc h1 a:visited:hover, a.galleryDownload:active, a.galleryDownload:hover, a.galleryDownload:focus, a.galleryDownload:visited:hover {
+	color:#3232B6;
+}
+div.embeddedGallery div.desc .title {
+	font-weight:bold;
+}
+#standaloneGallery a.navigationLink {
+	font-size:100%;
+}
+#standaloneGallery a.navigation:link, #standaloneGallery a.navigation:visited, #standaloneGallery a.navigation:hover, #standaloneGallery a.navigation:active {
+	color:#2F6EAC;
+}
+.galleryLegend a:link, .galleryLegend a:visited, div.embeddedGallery a.galleryDownload:link, div.embeddedGallery a.galleryDownload:visited, div.embeddedGallery a.galleryDownload:active, div.embeddedGallery a.galleryDownload:hover, div.embeddedGallery a.galleryDownload:focus, div.embeddedGallery a.galleryDownload:visited:hover {
+	text-decoration:none;
+}
+div.embeddedGallery .metaCol1, div.embeddedGallery .metaCol2 {
+	display:block;
+	float:left;
+	font-size:80%;
+}
+.galleryLegend a:active, .galleryLegend a:hover, .galleryLegend a:focus, .galleryLegend a:visited:hover, #standaloneGallery a.navigationLink:link {
+	text-decoration:underline;
+}
+div.embeddedGallery .galleryHr {
+	background-color:#4774B0;
+	border:0;
+	clear:left;
+	color:#4774B0;
+	height:1px;
+	margin:10px 0;
+	position:relative;
+}
+.standaloneGalleryHorizontal #standaloneGallery {
+	margin:0;
+}
+.standaloneGalleryHorizontal hr, .printOnly, .ieOnly {
+	display:none;
+}
+#standaloneGallery .navigation .left {
+	float:left;
+}

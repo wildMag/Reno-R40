@@ -1,0 +1,213 @@
+/* Navigation principale
+ ----------------------------------------------------- 
+ Navigation thematique + subnav
+ Navigation transversale + subnav
+ ----------------------------------------------------- */
+
+#thematicNav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#thematicNav ul li {
+	margin:0;
+	padding:0;
+}
+#thematicNav ul li ul li {
+	border:0;
+	margin:0;
+}
+/* Main Navigation 
+	   Si l'aspect des elements de navigation varie de categorie
+	   en categorie, on commence par fixer les preferences 
+	   generales comme l'espacement, la taille, la font etc... 
+ ------------------------------------------------------- */
+#leftCol a, #leftCol .navOn a {
+	font-weight:bold;
+	font-size:0.95em;
+	text-decoration:none;
+	position:relative;
+	font-weight:bold;
+	display:block;
+	background:#705d79 url(../../pictures/layout/leftnav/shared/bg_buttons.gif) top right repeat-y;
+	color:#fff;
+	letter-spacing:0.05em;
+}
+#leftCol a .contentA {
+	display:block;
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons_top.gif) top right no-repeat;
+}
+#leftCol a.navColor1 .contentA {
+	display:block;
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons01_top.gif) top right no-repeat;
+}
+#leftCol a .contentB {
+	display:block;
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons_bottom.gif) bottom right no-repeat;
+	padding:10px 28px 10px 8px;
+}
+#leftCol a:hover, #leftCol a:active, #leftCol a:focus, #leftCol .navOn a, #leftCol .navOn a:hover, #leftCol .navOn a:active {
+	background:#ed6000 url(../../pictures/layout/leftnav/shared/bg_buttons_over.gif) top right repeat-y;
+	color:#000;
+}
+#leftCol a:hover .contentB, #leftCol a:active .contentB, #leftCol a:focus .contentB, #leftCol .navOn a .contentB, #leftCol .navOn a:hover .contentB, #leftCol .navOn a:active .contentB {
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons_top_over.gif) top right no-repeat;
+}
+#leftCol a.navColor1:hover .contentB, #leftCol a.navColor1:active .contentB, #leftCol a.navColor1:focus .contentB, #leftCol .navOn a.navColor1 .contentB, #leftCol .navOn a.navColor1:hover .contentB, #leftCol .navOn a.navColor1:active .contentB {
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons01_top_over.gif) top right no-repeat;
+}
+#leftCol a:hover .contentA, #leftCol a:active .contentA, #leftCol a:focus .contentA {
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons_bottom_over.gif) bottom right no-repeat;
+}
+#leftCol .navOn a .contentA, #leftCol .navOn a:hover .contentA, #leftCol .navOn a:active .contentA {
+	background:url(../../pictures/layout/leftnav/shared/bg_buttons_bottom_on.gif) bottom right no-repeat;
+}
+#leftCol li {
+	padding-bottom:6px !important;
+}
+/* Navigation transversale								 
+ ----------------------------------------------------- */
+#transversalNav {
+	margin-top:2.5em;
+	list-style:none;
+	z-index:10;
+	overflow:visible;
+	padding:0;
+}
+#transversalNav ul {
+	list-style:none;
+	background:url(../../pictures/layout/leftnav/shared/bg_tbuttons_bottom.gif) bottom right no-repeat;
+	margin:0;
+	padding:0 0 11px 0;
+}
+#transversalNav li {
+	padding-bottom:0 !important;
+}
+#transversalNav ul li {
+	margin:0;
+	padding:0;
+}
+#transversalNav a, #transversalNav .navOn a {
+	color:#000;
+	background:#dbd1f1 url(../../pictures/layout/leftnav/shared/bg_tbuttons_top.gif) top right no-repeat;
+	border-left:1px solid #9d8ca5;
+	border-right:1px solid #9d8ca5;
+}
+#transversalNav a .contentA {
+	background:url(../../pictures/layout/leftnav/shared/bg_tbuttons.gif) top left repeat-x;
+}
+#transversalNav a .contentB {
+	background:none;
+}
+#transversalNav a.navColor1, #transversalNav .navOn a.navColor1 {
+	background:#dbd1f1 url(../../pictures/layout/leftnav/shared/bg_tbuttons01_top.gif) top right no-repeat;
+	border-left:1px solid #9d8ca5;
+	border-right:0;
+	padding-right:1px;
+}
+#transversalNav a.navColor1 .contentA {
+	background:none;
+}
+#transversalNav a:hover, #transversalNav a:active, #transversalNav a:focus, #transversalNav .navOn a, #transversalNav .navOn a:hover, #transversalNav .navOn a:active {
+	background:#665c80 url(../../pictures/layout/leftnav/shared/bg_tbuttons_top_over.gif) top right no-repeat;
+	color:#fff;
+}
+#transversalNav a.navColor1:hover, #transversalNav a.navColor1:active, #transversalNav a.navColor1:focus, #transversalNav .navOn a.navColor1, #transversalNav .navOn a.navColor1:hover, #transversalNav .navOn a.navColor1:active {
+	background:#665c80 url(../../pictures/layout/leftnav/shared/bg_tbuttons01_top_over.gif) top right no-repeat;
+	color:#fff;
+}
+#transversalNav a:hover .contentB, #transversalNav a:active .contentB, #transversalNav a:focus .contentB, #transversalNav .navOn a .contentB, #transversalNav .navOn a:hover .contentB, #transversalNav .navOn a:active .contentB {
+	background:url(../../pictures/layout/leftnav/shared/bg_tbuttons_over.gif) top left repeat-x;
+}
+#transversalNav a:hover .contentA, #transversalNav a:active .contentA, #transversalNav a:focus .contentA {
+	background:none;
+}
+#transversalNav a.navColor1:hover .contentB, #transversalNav a.navColor1:active .contentB, #transversalNav a.navColor1:focus .contentB, #transversalNav .navOn a .contentB, #transversalNav .navOn a:hover .contentB, #transversalNav .navOn a:active .contentB {
+background:none !important;
+}
+#transversalNav .navOn a .contentA, #transversalNav .navOn a:hover .contentA, #transversalNav .navOn a:active .contentA {
+	background:none;
+}
+/* Navigation de deuxieme niveau						 
+ ----------------------------------------------------- */
+#transversalNav ul li ul li {
+	border:0;
+	margin:0;
+}
+.rubCol {
+	background-color:#c94a07;
+}
+#subNav a {					/* mise a 0 des css predefinis (leftCol a) */
+	font-weight:normal;
+	font-size:95%;
+	text-decoration:none;
+	text-transform:none;
+	position:relative;
+	display:block;
+	background:none;
+}
+#subNav {
+	padding-bottom:22px;
+	background:url(../../pictures/layout/leftnav/shared/bg_subnav_bottom.gif) bottom left no-repeat;
+	font-size:100%;
+}
+#transversalNav #subNav {
+	padding-bottom:0;
+	background:none;
+	font-size:100%;
+}
+#subNav a:link, #subNav a:visited, #subNav a:active {  
+	color:#3b2347;
+	text-decoration:none;
+}
+#subNav a:link .contentA, #subNav a:visited .contentA, #subNav a:active .contentA {  
+	background:url(../../pictures/layout/leftnav/shared/bullet.gif) top left no-repeat;
+	display:block;
+}
+#subNav a .contentB {  
+	padding:5px 0 5px 15px;
+	display:block;
+	background:url(../../pictures/layout/leftnav/shared/bg_subnav_top.gif) bottom left repeat-x;
+}
+#subNav a:hover, #subNav .subNavOn a:hover, #subNav a:active, #subNav a:focus {
+	text-decoration:underline;
+	color:#3b2347;
+	background:#fddabf url(../../pictures/layout/leftnav/shared/bg_subnav_on.gif) top left repeat-x;
+}
+#subNav a:hover .contentA, #subNav .subNavOn a .contentA, #subNav .subNavOn a:hover .contentA, #subNav a:active .contentA, #subNav a:focus .contentA {
+	text-decoration:underline;
+	background:url(../../pictures/layout/leftnav/shared/bullet_over.gif) top left no-repeat    !important;
+}
+#subNav .subNavOn a .contentA {
+	text-decoration:none;
+}
+#subNav a:hover .contentB, #subNav a:active .contentB, #subNav a:focus .contentB {
+	text-decoration:underline;
+	background:url(../../pictures/layout/leftnav/shared/bg_subnav_top.gif) bottom left repeat-x;
+}
+#subNav .subNavOn a .contentB, #subNav .subNavOn a:hover .contentB {
+	text-decoration:underline;
+	background:url(../../pictures/layout/leftnav/shared/bg_subnav_top_over.gif) bottom left repeat-x    !important;
+}
+#subNav .subNavOn {  
+	background:#fddabf url(../../pictures/layout/leftnav/shared/bg_subnav_on.gif) top left repeat-x;
+	text-decoration:none;
+	}
+#subNav .subNavOn a:link, #subNav .subNavOn a:visited, #subNav .subNavOn a:active, #subNav .subNavOn a:focus {  
+	text-decoration:none;
+}
+#subNav ul {
+	background:#efedef url(../../pictures/layout/leftnav/shared/bg_subnav.gif) top right repeat-y;
+	margin:0;
+	padding:0 2px 0 0;
+}
+#transversalNav #subNav ul {
+	padding:0;
+}
+#subNav li {
+	display:block;
+	width:100%;
+	color:#333;
+	margin:0 !important;
+	padding:0 !important;
+}

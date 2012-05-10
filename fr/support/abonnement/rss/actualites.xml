@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>Toutes les actualités de l'ILNAS</title>
+  <description>Toutes les actualités de l'ILNAS</description>
+  <copyright>ILNAS - Grand-Duché de Luxembourg</copyright>
+  <link>http://www.ilnas.public.lu/fr/</link>
+  <language>fr-LU</language>
+  <image>
+   <title>Toutes les actualités de l'ILNAS</title>
+   <link>http://www.ilnas.public.lu/fr/</link>
+   <url>http://www.ilnas.public.lu/pictures/rss/logo.gif</url>
+   <description>Gouvernement du Grand-Duché de Luxembourg</description>
+   <width>80</width>
+   <height>80</height>
+  </image>
+  <ttl>1440</ttl>
+  <skipHours>
+   <hour>20</hour>
+   <hour>21</hour>
+   <hour>22</hour>
+   <hour>23</hour>
+   <hour>0</hour>
+   <hour>1</hour>
+   <hour>2</hour>
+   <hour>3</hour>
+   <hour>4</hour>
+   <hour>5</hour>
+   <hour>6</hour>
+  </skipHours>
+  <skipDays>
+   <day>Saturday</day>
+   <day>Sunday</day>
+  </skipDays>
+  <pubDate>Mon, 28 Mar 2011 10:33:18 +0000</pubDate>
+  <lastBuildDate>Mon, 28 Mar 2011 10:33:18 +0000</lastBuildDate>
+  <item>
+   <title>Le Laboratoire de Procréation Médicalement Assistée du Centre Hospitalier de Luxembourg a reçu l'accréditation selon la norme ISO 15189</title>
+   <description>Le laboratoire de PMA du CHL vient d'obtenir son accréditation selon la norme ISO 15189. Cette accréditation permet la reconnaissance de l'efficacité de son système qualité, démontre la compétence technique de l'ensemble de son personnel ainsi que la qualité des prestations fournies par le laboratoire.</description>
+   <pubDate>Mon, 21 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/laboratoire-pma-chl-iso-15189/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/laboratoire-pma-chl-iso-15189/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>La Division Bactériologie-Parasitologie du LNS a reçu l'accréditation selon la norme ISO/CEI 17025</title>
+   <description>La Division de Bactériologie-Parasitologie du LNS a été accréditée selon la norme ISO/CEI 17025 pour l'identification, le sérotypage et l'antibiogramme des salmonelles.</description>
+   <pubDate>Mon, 21 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/lns-division-bacteriologie-iso-cei-17025/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/lns-division-bacteriologie-iso-cei-17025/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Mise en application de nouvelles normes européennes sur le plan national</title>
+   <description>L'ILNAS en tant qu'Organisme luxembourgeois de normalisation a notamment pour mission de publier les références des nouvelles normes européennes applicables à l'échelle nationale. Pour le premier trimestre 2011, 3393 nouvelles normes européennes complètent le catalogue des normes mises en application au Luxembourg.</description>
+   <pubDate>Wed, 16 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/mise-en-application-de-nouvelles-normes-europeennes-sur-le_plan-national/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/03/mise-en-application-de-nouvelles-normes-europeennes-sur-le_plan-national/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Prix luxembourgeois de la qualité 2011: Appel à candidatures</title>
+   <description>Toutes les Petites et Moyennes Entreprises installées au Luxembourg, qui souhaitent se démarquer de leurs concurrents devraient postuler au Prix Luxembourgeois de la Qualité. Pourquoi ? Parce que c'est un signe de QUALITE pour les clients, un signe qui peut influencer leur décision d'achat. C'est également un bon moyen d'obtenir un diagnostic de son organisation.</description>
+   <pubDate>Tue, 01 Mar 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Prix-luxembourgeois-de-la-qualite-2011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Prix-luxembourgeois-de-la-qualite-2011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Laboratoire de l'Hôpital Kirchberg - Accréditation 15189</title>
+   <description>Le laboratoire de l'Hôpital Kirchberg réalise plus d'un million d'analyses par an dans des domaines tels que la biochimie, l'hématologie, la sérologie, la bactériologie, etc. Le laboratoire est opérationnel 24 heures sur 24 et ceci tous les jours de l'année. En répondant aux critères définis dans le référentiel international, il garantit aux patients et aux médecins un service optimal en matière de gestion et de qualité.</description>
+   <pubDate>Sun, 27 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Laboratoire-Hopital-Kirchberg/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Laboratoire-Hopital-Kirchberg/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Management de l'énergie : publication prochaine de la norme ISO 50001</title>
+   <description>La publication de la norme internationale ISO 50001 relative aux exigences et lignes directrices pour l'utilisation de l'énergie est prévue pour le troisième trimestre 2011. Cette norme établira, pour les installations industrielles, les établissements commerciaux et les organisations dans leur intégralité, un cadre de gestion des ressources énergétiques.</description>
+   <pubDate>Thu, 24 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Management-de-l-energie-publication-prochaine-de-la-norme-ISO-500011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Management-de-l-energie-publication-prochaine-de-la-norme-ISO-500011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Union européenne – Consultation sur les signatures électroniques</title>
+   <description>Dans le cadre de la stratégie numérique « Une stratégie numérique pour l'Europe » (« A digital agenda for Europe »), l'Union européenne lance une consultation sur les signatures électroniques.</description>
+   <pubDate>Thu, 24 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Union-europeenne-Consultation-sur-les-signatures-electroniques/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Union-europeenne-Consultation-sur-les-signatures-electroniques/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Publication de la norme ISO/IEC 17021 :2011</title>
+   <description>En vue de renforcer la valeur de la certification des systèmes de management, le comité ISO/CASCO a révisé la norme ISO/IEC 17021:2006 - Exigences pour les organismes procédant à l'audit et à la certification de systèmes de management. (Management de la qualité, management environnemental et management de la sécurité des denrées alimentaires).</description>
+   <pubDate>Wed, 23 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Publication-de-la-norme-ISO_IEC-17021_2011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Publication-de-la-norme-ISO_IEC-17021_2011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Accréditation du laboratoire d'étalonnage de la société CARGOLUX</title>
+   <description>Le 7 février 2011, le laboratoire d'étalonnage de Cargolux Airlines International S.A. a obtenu l'accréditation selon la norme ISO/CEI 17025 : 2005 en reconnaissance de ses compétences techniques dans le domaine de l'étalonnage électrique.</description>
+   <pubDate>Thu, 17 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Accreditation-du-laboratoire-d-etalonnage-de-la-societe-CARGOLUX/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/Accreditation-du-laboratoire-d-etalonnage-de-la-societe-CARGOLUX/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Le sous-comité technique de normalisation ISO/IEC JTC1/SC27 célèbre ses 20 ans</title>
+   <description>Afin de célébrer le 20ème anniversaire du sous-comité, le professeur Edward J. Humphreys, responsable du groupe de travail ISO/IEC JTC1/SC27/WG1, a édité un ouvrage intitulé « SC27 Platinum Book ». Cet ouvrage consiste en une collection d'articles, rédigés par plusieurs acteurs parmi les plus influents du sous-comité.</description>
+   <pubDate>Mon, 07 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/sous-comite-SC-27-fete-20-ans/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/sous-comite-SC-27-fete-20-ans/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Politique de transition pour ISO/CEI 17021 :2011</title>
+   <description>Le 1er février 2011, une deuxième version révisée de la norme ISO/CEI 17021, développée par le comité pour l'évaluation de la conformité (ISO/CASCO), a été publiée sur le site Internet de l'ISO.</description>
+   <pubDate>Wed, 02 Feb 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/politique-transition-iso-17021-2011/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/02/politique-transition-iso-17021-2011/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>ISO/IEC/JTC1 Luxembourg affiche une belle vitalité</title>
+   <description>Le comité international de normalisation « ISO/IEC/JTC1 », traitant du secteur des technologies de l'information et de la communication (TIC), est en pleine croissance au Grand-Duché de Luxembourg. Au 26 janvier 2011, 33 experts du Grand-Duché de Luxembourg y sont inscrits (auprès de l'ILNAS).</description>
+   <pubDate>Wed, 26 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/ISO-IEC-JTC1-Luxembourg-affiche-une-belle-vitalit-_/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/ISO-IEC-JTC1-Luxembourg-affiche-une-belle-vitalit-_/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Compilation sur CD-ROM des normes ISO relatives à l'analyse chimique des surfaces</title>
+   <description>L'Organisation internationale de normalisation (ISO) vient de publier un nouveau CD-ROM qui rassemble 41 normes internationales ainsi que les documents associés sur l'analyse chimique des surfaces. L'objectif de cette compilation est d'assister les professionnels confrontés quotidiennement aux questions relatives à l'analyse chimique des surfaces dans de nombreux domaines, tels que les polymères, la métallurgie, les matériaux composites et la microélectronique.</description>
+   <pubDate>Tue, 18 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/compilation-sur-cd-des-normes-iso-relatives-analyse-chimique-des-surfaces/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/compilation-sur-cd-des-normes-iso-relatives-analyse-chimique-des-surfaces/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>ISO 14001 : Nouveau manuel à l'usage des PME</title>
+   <description>L'organisation internationale de normalisation (ISO) et le Centre du commerce international (ITC) viennent de publier un manuel avec CD pour aider les PME à exploiter les atouts de la norme ISO 14001 :2004 - Systèmes de management environnemental, exigences et lignes directrices pour son application.</description>
+   <pubDate>Tue, 18 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/iso-14001-nouveau-manuel-pme/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/iso-14001-nouveau-manuel-pme/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelles normes européennes pour des téléphones portables compatibles avec un chargeur universel</title>
+   <description>Dans le cadre du Mandat M/455 de la Commission européenne, les organismes européens de normalisation ont récemment présenté la norme EN 62684 :2010, relative aux spécifications d'interopérabilité de l'alimentation externe commune (EPS) avec des téléphones mobiles permettant l'échange de données.</description>
+   <pubDate>Tue, 18 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/nouvelles-normes-europeennes-telephones-portables/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/nouvelles-normes-europeennes-telephones-portables/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Nouvelle Prolongation de l'enquête publique sur l'adoption des Annexes nationales aux Eurocodes</title>
+   <description>Suite à la demande des parties investies, l'enquête publique sur l'adoption des Annexes nationales aux Eurocodes est prolongée jusqu'au 31 mars 2011. Cette nouvelle échéance remplace donc la date du 15 février 2011 annoncée fin décembre.</description>
+   <pubDate>Thu, 13 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/prolongation-enquete-publique-eurocodes/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/prolongation-enquete-publique-eurocodes/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Avis aux entreprises certifiées ou accréditées au Grand-Duché du Luxembourg</title>
+   <description>Dans le cadre de l'édition 2011 du Guide Luxembourgeois pour la Qualité, le Mouvement Luxembourgeois pour la qualité (MLQ), en collaboration avec l'ILNAS, lance un avis auprès des entreprises certifiées ou accréditées au Grand-Duché du Luxembourg.</description>
+   <pubDate>Tue, 11 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/promotion-de-la-qualite/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/promotion-de-la-qualite/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Liste de confiance nationale caractérisant les prestataires de services de certification délivrant, au public, des certificats qualifiés</title>
+   <description>La Commission européenne (JO L 274/36 du 20.10.2009 et JO L 299/18 du 14.11.2009) impose à chaque Etat membre l'établissement, la mise à jour et la publication d'une &quot;liste de confiance&quot; (&quot;Trusted List&quot;) contenant les informations minimales relatives aux prestataires de services de certification délivrant, au public, des certificats qualifiés et qui sont surveillés/accrédités par chaque Etat membre au niveau national. L'ILNAS a mis à jour la liste de confiance nationale en date du 01er décembre 2010.</description>
+   <pubDate>Wed, 05 Jan 2011 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/liste-confiance-nationale/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2011/01/liste-confiance-nationale/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Prolongation de l'enquête publique sur l'adoption des Annexes nationales aux Eurocodes</title>
+   <description>Pour laisser davantage de temps aux acteurs luxembourgeois du secteur de la construction afin de faire part de leurs commentaires, l'enquête publique sur l'adoption des Annexes nationales aux Eurocodes est prolongée jusqu'au 15 février 2011.</description>
+   <pubDate>Sun, 19 Dec 2010 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2010/12/prolongation-enquete-publique-eurocodes/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2010/12/prolongation-enquete-publique-eurocodes/index.html?from=rss</guid>
+  </item>
+  <item>
+   <title>Concours ISO 26000</title>
+   <description>L'Organisation internationale de normalisation (ISO) vient de lancer un concours de rédaction d'article sur la récente norme ISO 26000 relative à la responsabilité sociétale des organisations.</description>
+   <pubDate>Sun, 19 Dec 2010 23:00:00 +0000</pubDate>
+   <link>http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2010/12/concours-iso-26000/index.html?from=rss</link>
+   <guid isPermaLink="true">http://www.ilnas.public.lu/ilnas/fr/actualites/evenements/2010/12/concours-iso-26000/index.html?from=rss</guid>
+  </item>
+ </channel>
+
+</rss>

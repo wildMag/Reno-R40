@@ -1,0 +1,333 @@
+/* ============================================= */
+/* page de présentation des galeries             */
+/* ============================================= */
+/* règles retirées de layout.css */
+/* Boites flottantes					 */
+/* ----------------------------------------------------- */
+#gallery .inside {
+	position:relative;
+  padding:0;
+	border:0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+	background-color:transparent;
+}
+#gallery .inside li, #middleCol #gallery .inside li {
+	text-align:center;
+	width:220px;
+	float:left;
+	padding:0;
+	background-color:transparent;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+#gallery .inside li .thumbnail {
+	float:none;
+	padding:15px;
+	width:auto;
+	margin: 0 15px 15px;
+	border:1px solid #ccc;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+	background:#ededed url(../../pictures/layout/gallery/bg-thumbnails.gif) top left repeat-x;
+}
+#gallery .inside .thumbnail a {
+	display: inline-block;
+	position:relative;
+	margin-bottom: 3px;
+	background:url(../../pictures/layout/gallery/bg-shadow-img.gif) bottom left repeat-x;
+	padding-bottom:9px;
+	cursor:pointer;
+	border:1px solid #FFF;
+}
+#gallery .inside .thumbnail a img {
+	height:95px;
+	width:auto;
+	z-index:1;
+}
+#gallery .inside .thumbnail a:focus {
+	border:1px dotted red;
+}
+#gallery .inside .thumbnail a span.magnify, .thumbnail .magnify {
+	display:block;
+	position:absolute;
+	bottom:9px;
+	right:0;
+	width:27px;
+	height:25px;
+	background:url(../../pictures/layout/gallery/ico-loupe.gif) bottom right no-repeat;
+	z-index:2;
+}
+#gallery .inside li .thumbnail .imageLegend {
+	display: block;
+	margin: 0;
+	padding:0;
+	text-align: left;
+	width: auto;
+}
+#gallery .inside .thumbnail .imageCopyright {
+	font-size:0.7em;
+	text-align:right;
+	padding:0 0 8px 0;
+}
+#gallery .inside li .caption {
+	display:none;
+	padding:0;
+	margin:0;
+}
+#gallery .inside li .tools, #middleCol #gallery .inside li .tools {
+	float:none;
+	width:150px;
+	padding-top:0;
+	font-size:0;
+	position:absolute;
+	left:-90000px;
+}
+/* JS generated elements					 */
+#gallery .inside li .thumbnail .contentA, #middleCol #gallery .inside li .thumbnail .contentA {
+    margin: 0;
+    padding: 8px;
+		background:#FFF;
+}
+#gallery .inside li .thumbnail .contentB, #middleCol #gallery .inside li .thumbnail .contentB {
+    margin: 0;
+    padding: 0;
+}
+/* ============================================= */
+/* modale                                        
+/* ============================================= */
+.highslide-wrapper, .highslide-outline { 
+	background: transparent !important;
+}
+.highslide-container td.hs-luxembourg {
+	background: #ececec url(../../pictures/layout/highslide/hs_luxembourg_color.gif) !important;/**/
+}
+/* Déplacement de l'image pour version hs_slideshow */
+body .hs_slideshow img.highslide-image {
+	border:none;
+	left: -16px !important;	
+}
+/* Déplacement de l'image pour version hs_slideshow */
+body img.highslide-image {
+	left: -16px !important;
+	border:none;
+}
+body .hs_slideshow .overlay {
+}
+body .highslide-pannel {
+}
+	/* Pour la transition il faut inverser les positions  */
+	body .hs_slideshow .transOverlay {
+	}
+	body  div.highslide-image {
+		border:0 !important;
+		z-index:0 !important;
+		left: -16px !important;
+		padding-right:16px !important;
+		background:transparent !important;
+		}
+	body .hs-luxembourg div.highslide-image img.highslide-image {
+		border:0 !important;
+		z-index:0 !important;
+		left: 0 !important;
+	}
+.hs-luxembourg .highslide-image:hover {
+	cursor: move !important;
+}
+/* ============================================= */
+/* texte affiché dans la modale                  */
+/* ============================================= */
+.hs-luxembourg a:focus {
+	color:#ccc;
+}
+.hs-luxembourg .highslide-caption {
+	margin-top: 0 !important;
+	padding:0;
+	position:relative;
+}
+.hs-luxembourg .highslide-caption .legendWrapper {
+	background:#FFF;
+	border:1px solid #cccccc;
+	border-top:none;
+	width:100%;
+	left:-16px;
+	padding:10px 15px 10px 15px;
+	position:relative;
+	margin-bottom:1em;
+}
+.hs-luxembourg .highslide-caption .legendWrapper p {
+	padding-right:6.5em;
+	font-size:0.8em;
+	margin:0;
+}
+.hs-luxembourg .highslide-caption .highslide-number {
+	position:absolute;
+	top:10px;
+	right:15px;
+	font-size:0.9em;
+	z-index:9000;
+	font-weight:normal;
+	color:#000;
+	}
+.hs-luxembourg .imageTitle {
+	font-weight:bold;
+}
+.hs-luxembourg .imageCopyright {
+	font-size:0.75em;
+	text-align:right;
+}
+.hs-luxembourg .imageDescription {
+	font-size:0.9em;
+	margin:auto;
+}
+/* ============================================= */
+/* Positionnement des contrôles                  */
+/* ============================================= */
+/* tous les contrôles */
+.hs_controls, .hs_slideshow ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+.hs-luxembourg .hs_controls {
+	display:block;
+	right:-16px;
+	position:relative;
+	margin:auto;
+	background:#FFF !important;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.hs_controls li {
+	display: inline;
+	text-align:center;
+}
+.hs_controls li a {
+	margin:auto;
+	display:block;
+	width:27px;
+}
+.hs_controls li img {
+	margin: auto;
+	margin:5px 0;
+}
+/* bouton de fermeture */
+.hs_close {
+	position: absolute;
+	right: -22px;
+	top: -43px;
+}
+.hs_slideshow .hs_close {
+	position: absolute;
+	right: -25px;
+	top: -123px;
+}
+/* bouton d'enregistrement */
+.hs_controls a.hs_save {
+	border-bottom:1px solid #ccc;
+}
+/* bouton d'agrandissement */
+.hs_controls a.hs_expand {
+	border-bottom:1px solid #ccc;
+}
+/* bouton mosaïque */
+.hs_controls a.hs_mosaic {
+}
+/* Version sans slideshow */
+.hs_simple .hs_slideshow {
+	display: none;
+}
+/* Version avec slideshow */
+.hs_slideshow .hs_slideshow  {
+	position: relative;
+	top:0;
+}
+.hs_slideshow li {
+	display: inline;
+}
+.highslide-full-expand {
+	display: none !important;
+}
+/* ============================================= */
+/* Positionnement du thumbstrip                  */
+/* ============================================= */
+.highslide-thumbstrip-horizontal-overlay {
+	left:-16px !important;
+	right:-16px !important;
+}
+.highslide-thumbstrip-horizontal{
+  margin:0 0 10px;
+	}
+.highslide-thumbstrip-inner a img {
+	display: block;
+	border: 0 !important;
+	height: 58px;
+}
+.highslide-thumbstrip-inner {
+	padding: 0;
+	background-color: #fff;
+}
+.highslide-active-anchor, .highslide-thumbstrip-inner a:focus {
+	background-color: #aaaaaa;
+}
+#gallery .highslide-active-anchor img {
+	visibility:visible;
+}
+.highslide-thumbstrip-horizontal .highslide-marker {
+	top: 73px;
+  border-bottom: 6px solid 666666;
+}
+.highslide-thumbstrip-horizontal table {
+  margin: 0;
+	border: 0;
+	width: auto;
+}
+.highslide-thumbstrip-horizontal table td {
+	background:#FFF;
+	border-collapse:collapse;
+	border-left:1px solid #e6e6e9;
+	border-right:1px solid #e6e6e9;
+}
+.highslide-thumbstrip-horizontal table td a {
+	display:block;
+	padding:7px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.highslide-thumbstrip-horizontal td {
+	border: 1px solid #ececec;
+	padding: 0;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-down div, .highslide-thumbstrip-horizontal .highslide-scroll-up div {
+	display:block !important;
+	background:none;
+	height:75px;
+	width:20px;
+	margin:0;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-down {
+	background:none;
+	height:75px;
+	width:20px;
+	right:0;
+	top:0;
+	display:block !important;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-up {
+	display:block !important;
+	background:none;
+	height:75px;
+	width:20px;
+	top:0;
+	left:0;
+}
+
+.highslide-thumbstrip-horizontal .highslide-scroll-down img,
+.highslide-thumbstrip-horizontal .highslide-scroll-up img {
+	height:75px;
+	width:20px;
+	border:none;
+}

@@ -1,0 +1,147 @@
+	.ieOnly {display:block;}
+	body #wrapper { zoom:1; }
+	#contentBody div, #rightCol div, #leftCol div {
+	  zoom:1; /* hasLayout bug IE */
+	}
+	.logo {right: -1px;}
+	#leftCol a span  {	zoom:1; }
+	li.element {
+	  zoom:1; /* hasLayout bug IE */
+	}
+	.printSend { margin-top:8px;}
+	.advSearch { font-size:90%; }
+	.thumbnailL a .copyright, .thumbnailR a .copyright {
+	  cursor:pointer;
+   	  }
+	.thumbnailL .copyright, .thumbnailR .copyright {
+	  margin-top:-1.5em;
+   	  }
+	#middleCol, #rightCol {
+	  position:relative;
+	}
+	#publication .step1 fieldset legend, #publication .step3 fieldset legend {
+	   margin-left:-5px;
+	}
+	#publication div.basketTable .deleteCol {
+	   width:10.5em;
+	}
+	.orderBox, .searchBox {
+	  width:250px;
+	  }
+	#publication .searchBoxContent div.formContent .formw {
+	   margin-left: 0;
+	}
+	.orderBoxContent a.button, .orderBoxContent a.button:link, .orderBoxContent a.button:visited, .orderBoxContent a.button:hover { 
+		font-size:0.8em;
+	}
+	.orderBoxContent a.button, .orderBoxContent a.button .contentA, .orderBoxContent a.button .contentB,
+	.orderBoxContent a.button .contentC, .orderBoxContent a.button .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	.orderBoxContent a.button .contentD, .orderBoxContent a.button .contentD, .orderBoxContent a.button .contentD {
+	  padding:2px 8px 5px 4px;
+	  }
+	#publication .descWithThumbnail, #publication .metaData {
+	  zoom:0;
+	}
+    .orderBoxContent .langRow{
+      zoom:1;
+    }
+    .orderBoxContent .langRow div{
+      zoom:0;
+    }
+	
+	html > body #publication form input.basket_btn{
+	*width: 180px;	
+	}
+	
+
+
+
+	#agendaNav #tabs {
+		padding-left: 0.5em;
+	}
+	#publication div.basketTable a.button, #publication div.basketTable a.button:link, #publication div.basketTable a.button:visited, #publication div.basketTable a.button:hover { 
+		font-size:0.8em;
+	    padding:0;
+	}
+	#publication div.basketTable a.calculate, #publication div.basketTable a.calculate:link, #publication div.basketTable a.calculate:visited, #publication div.basketTable a.calculate:hover { 
+		font-size:0.6em;
+	    padding:0;
+	}
+	#publication div.basketTable a.button, #publication div.basketTable a.button .contentA, #publication div.basketTable a.button .contentB,
+	#publication div.basketTable a.button .contentC, #publication div.basketTable a.button .contentD {
+	  padding:0;
+	  }
+	#publication div.basketTable a.button .contentD, #publication div.basketTable a.button .contentD, #publication div.basketTable a.button .contentD {
+	  padding:4px 4px 8px 4px;
+	  }
+	#publication div.basketTable a.address, #publication div.basketTable a.address .contentA, #publication div.basketTable a.address .contentB,
+	#publication div.basketTable a.address .contentC, #publication div.basketTable a.address .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	#publication div.basketTable a.address .contentD, #publication div.basketTable a.address .contentD, #publication div.basketTable a.address .contentD {
+		font-size:0.9em;
+	  padding:2px 8px 5px 4px;
+	  }
+/* pour les leins : principaux portails publics ; langues ; recherche avancee
+ */
+	#infoLeft { line-height:2em; padding-top:0;}
+	#info a:link, #info a:visited, #info a:hover { 
+	  text-decoration:none;
+	  padding:0;
+	}
+	#info a .contentA, #info a .contentB,
+	#info a .contentC, #info a .contentD {
+	  padding:0;
+	  }
+	#info a .contentD {
+	  padding:2px 4px 3px;
+	  }
+	#info a.linklang .contentD {
+	  padding:2px 4px 3px 24px;
+	  }
+	#subNav li {  
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	#subNav a:link, #subNav a:visited, #subNav a:active {
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	#subNav a:hover, #subNav .subNavOn a:hover  {  
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	fieldset.advSearch .submit {
+	  right:-10em;
+	  }
+	fieldset legend {
+	  left: -.5em;
+	}
+    .skipit a {zoom:1; }
+	
+	a.newwindow { 
+	 zoom:1; /* image de BG qui disparait si à la ligne */
+	}
+	#middleCol #searchResults .title {  
+	  zoom:0;
+	  }
+#agenda #tabs .content {
+  z-index:-1;
+  }
+#agenda .agendaSearchForm .nofieldset {
+	padding-top:20px;
+}
+
+/* Css pour tous les formulaires et résultats
+	 de recherche exalead :
+ ----------------------------------------------------- */
+#resultsContainer .contents {
+    width: 69.9%; /* pour éviter le saut de la col de droite */
+}
+#exalead .filterContainer ul, #exalead .filterContainer li {
+    display: inline;
+}
+
+#foot .content {  zoom:1;  }
+

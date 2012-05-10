@@ -1,0 +1,68 @@
+/* Contacts 
+ ----------------------------------------------------- 
+ Annuaire des personnes de contact					 
+ ----------------------------------------------------- */
+#contacts {
+	clear:both;
+	overflow:hidden;
+	margin:0 10% 0 0;
+	padding:0;
+}
+#contacts .nameCol {
+	float:left;
+	width:30%;
+	padding:0;
+}
+#contacts .nameCol h3 {
+	background:none;
+	border-bottom:1px solid #F9C7A5;
+	color:#F67B26;
+	font-weight:bold;
+	margin:0 0 0 15px;
+	padding:2px 0;
+}
+#contacts p {
+	border-bottom:1px solid #F9C7A5;
+	margin:0;
+	padding:2px 0;
+}
+#contacts .desc {
+	border-left:1px solid #F9C7A5;
+	margin:0 0 0 30%;
+	padding:0;
+}
+#contacts .desc p {
+	padding-left:10px;
+}
+#contacts .desc .metaRow {
+	color:#294341;
+}
+#contacts .desc .metaCol1 img {
+	margin-top:3px;
+}
+#contacts .desc .metaRow .metaCol1 {
+	display:block;
+	float:left;
+	width:4em;
+	font-weight:bold;
+}
+#contacts ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#contacts .element, #contacts .nameCol .content {
+	margin:0;
+	padding:0;
+}
+#contacts .desc .content {
+	margin:0;
+}
+#contacts .desc .metaRow .metaCol2 {
+	color:#6F6F6F;
+}
+#contacts .sep {
+	clear:left;
+	display:block;
+	font-size:1em;
+}

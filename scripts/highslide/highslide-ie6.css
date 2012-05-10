@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Viewport fixed hack */
+.highslide-viewport {
+	position: absolute;
+    left: expression( ( ( ignoreMe1 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: expression( ( ignoreMe2 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) + 'px' );
+	width: expression( ( ( ignoreMe3 = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) ) + 'px' );
+	height: expression( ( ( ignoreMe4 = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) ) + 'px' );
+}
+.highslide-thumbstrip-inner {
+}
+.highslide-thumbstrip-horizontal-overlay {
+	left:0 !important;
+	right:0 !important;
+}
+.highslide-thumbstrip-horizontal .highslide-marker {
+	border-left:6px solid #ededed;
+	border-right:6px solid #ededed;
+}
+
+/* ============================================= */
+/* texte affiché dans la modale                  */
+/* ============================================= */
+
+.hs-luxembourg .highslide-caption .highslide-number {
+	right:50px;
+	display:block;
+}

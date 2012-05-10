@@ -1,0 +1,104 @@
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6; font-weight: bold; color: #1c94c4; outline: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #1c94c4; text-decoration: none; outline: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #fbcb09; background: #fdf5ce; font-weight: bold; color: #c77405; outline: none; }
+.ui-state-hover a, .ui-state-hover a:hover, .ui-state-focus a:focus { color: #c77405; text-decoration: none; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #fbd850; background: #ffffff; font-weight: bold; color: #eb8f00; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #eb8f00; outline: none; text-decoration: none; }
+
+/* tablewithsort styles
+----------------------------------*/
+table.tablewithsort {
+	width: 98%; 
+	letter-spacing: 0.08em;
+	margin:0 2% 0.4em 0; 
+	border:1px solid #1c94c4;
+}
+table.tablewithsort thead{
+	width: 98%; 
+}
+table.tablewithsort th a ,
+table.tablewithsort th a:active  {
+  outline: none;
+}
+table.tablewithsort td { 
+	text-align: left; 
+	padding: 0.3em 0.5em; 
+}
+table.tablewithsort th { 	
+	background-color:#eef1f4;
+	border-top-color: #bacad5;
+	border-right-color: #bacad5;
+	border-bottom-color: #1c94c4;
+	border-left-color: #bacad5;
+	text-align:left;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-bottom-width:2px;
+	padding:0;
+}
+table.tablewithsort tr { 
+	background: #f6f6f6;
+}
+table.tablewithsort tr.odd { 
+	background: white;
+}
+table.tablewithsort caption {
+	margin: 0 0 1em 0;
+	text-align: left; 
+	padding: 0.3em 0.3em; 
+}
+table.tablewithsort th.col1 {	
+	min-width:60%;
+}
+table.tablewithsort th.col2 {	
+	min-width:20%;
+}
+table.tablewithsort th.col2 {	
+	min-width:20%;
+}
+table.tablewithsort th a {	
+	padding: 0.5em 2em 0.5em 0.7em; 
+	display: block;
+	line-height: 1;
+	color: black;
+	border: 0 !important;
+	position: relative;
+}
+table.tablewithsort th.ui-table-desc, table.tablewithsort th.ui-table-asc{	
+	border-top-color: #bacad5;
+	border-right-color: #bacad5;
+	border-bottom-color: #4b9edb;
+	border-left-color: #bacad5;
+	text-align:left;
+	white-space: nowrap;
+	vertical-align: middle;
+	color:#000;
+	font-weight:bold;
+	background-color: #DDEEF8;
+	background-image: url(../../pictures/layout/body/shared/bkg-header-tablewithsort.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+table.tablewithsort th.ui-table-desc a {	
+	color:#000;
+	background: url("../../pictures/layout/body/shared/tri_desc_active.gif") right center no-repeat;
+}
+table.tablewithsort th.ui-table-asc a{	
+	color:#000;
+	background: url("../../pictures/layout/body/shared/tri_asc_active.gif") right center no-repeat;
+}
+table.tablewithsort th.ui-table-desc a:hover,	
+table.tablewithsort th.ui-table-desc a:active,	
+table.tablewithsort th.ui-table-desc a:focus, 
+table.tablewithsort th a:hover,	
+table.tablewithsort th a:active,	
+table.tablewithsort th a:focus{	
+	background: url("../../pictures/layout/body/shared/tri_asc_active.gif") right center no-repeat;
+}
+table.tablewithsort th.ui-table-asc a:hover, 
+table.tablewithsort th.ui-table-asc a:active, 
+table.tablewithsort th.ui-table-asc a:focus{	
+	background: url("../../pictures/layout/body/shared/tri_desc_active.gif") right center no-repeat;
+}

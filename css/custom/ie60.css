@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+	.ieOnly {display:block;}
+	body #wrapper { 
+		zoom:1;
+		width:expression((document.body.clientWidth>1100) ? (function(element) { element.style.width = "1100px"; })(this) : "100%");
+	}
+	#contentBody div, #rightCol div, #leftCol div {
+	  zoom:1; /* hasLayout bug IE */
+	}
+	.logo {right: -1px;}
+	li.element {
+	  zoom:1; /* hasLayout bug IE */
+	}
+	.printSend { margin-top:8px;}
+	#leftCol a span  {	zoom:1; }
+	#subNav li {  
+	  zoom:1; /* hasLayout bug IE */
+	  position:relative; /* peekaboo bug fix IE6 */
+	  }
+	#subNav a:link, #subNav a:visited, #subNav a:active {
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	#subNav a:hover, #subNav .subNavOn a:hover  {  
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	#middleCol, #rightCol {
+	  position:relative;
+	}
+	fieldset.advSearch .submit {
+	  right:-10em;
+	  }
+	.advSearch { font-size:90%; }
+	.thumbnailL a .copyright, .thumbnailR a .copyright {
+	  cursor:pointer;
+   	  }
+	.thumbnailL .copyright, .thumbnailR .copyright {
+	  margin-top:-1.5em;
+   	  }
+	fieldset legend {
+	  left: -.5em;
+	}
+	.logo, .logoGouv, #helpNav .content, #helpNav { display:block; zoom:1; }
+	#helpNav .skiplinks {content:"dsfa"; zoom:1; height:1.2em;}
+	#helpNav .content { display:inline; }
+	#publication .descWithThumbnail, #publication .metaData {
+	  zoom:0;
+	  display:inline;
+	}
+    .orderBoxContent .langRow{
+      zoom:1;
+    }
+	#agendaNav #tabs {
+		padding-left: 0.5em;
+	}
+	#publication .step1 fieldset legend, #publication .step3 fieldset legend {
+	   margin-left:-5px;
+	}
+	#publication div.basketTable .deleteCol {
+	   width:10.5em;
+	}
+	.orderBoxContent a.button, .orderBoxContent a.button:link, .orderBoxContent a.button:visited, .orderBoxContent a.button:hover { 
+		font-size:0.8em;
+	}
+	.orderBoxContent a.button, .orderBoxContent a.button .contentA, .orderBoxContent a.button .contentB,
+	.orderBoxContent a.button .contentC, .orderBoxContent a.button .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	.orderBoxContent a.button .contentD, .orderBoxContent a.button .contentD, .orderBoxContent a.button .contentD {
+	  padding:2px 8px 5px 4px;
+	  }
+	#publication div.groupTable .tr {
+	   right:-1px;
+	}
+	#publication div.basketTable a.button, #publication div.basketTable a.button:link, #publication div.basketTable a.button:visited, #publication div.basketTable a.button:hover { 
+		font-size:0.8em;
+	    padding:0;
+	}
+	#publication div.basketTable .total .text {
+	   padding-bottom:3em;
+	}
+	#publication div.basketTable a.calculate, #publication div.basketTable a.calculate:link, #publication div.basketTable a.calculate:visited, #publication div.basketTable a.calculate:visited:hover, #publication div.basketTable a.calculate:hover { 
+		font-size:0.6em;
+	    padding:0;
+		position:relative;
+		margin-bottom:5px;
+	}
+	#publication div.basketTable a.button, #publication div.basketTable a.button .contentA, #publication div.basketTable a.button .contentB,
+	#publication div.basketTable a.button .contentC, #publication div.basketTable a.button .contentD {
+	  padding:0;
+	  }
+	#publication div.basketTable a.button .contentD, #publication div.basketTable a.button .contentD, #publication div.basketTable a.button .contentD {
+	  padding:4px 4px 8px 4px;
+	  }
+	.orderBoxContent a.address, .orderBoxContent a.address .contentA, .orderBoxContent a.address .contentB,
+	.orderBoxContent a.address .contentC, .orderBoxContent a.address .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	#publication div.basketTable a.address, #publication div.basketTable a.address .contentA, #publication div.basketTable a.address .contentB,
+	#publication div.basketTable a.address .contentC, #publication div.basketTable a.address .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	#publication div.basketTable a.address .contentD, #publication div.basketTable a.address .contentD, #publication div.basketTable a.address .contentD {
+		font-size:0.9em;
+	  padding:4px 8px 8px 4px;
+	  }
+	#publication div.shippingAddress, #publication div.billingAddress {
+	   position:relative;
+	   margin:0;
+	}
+/* pour les leins : principaux portails publics ; langues ; recherche avancee
+ */
+	#infoLeft { line-height:2em; padding-top:0;}
+	#info a:link, #info a:visited, #info a:hover { 
+	  text-decoration:none;
+	  padding:0;
+	}
+	#info a .contentA, #info a .contentB,
+	#info a .contentC, #info a .contentD {
+	  padding:0;
+	  }
+	#info a .contentD {
+	  padding:2px 4px 3px;
+	  }
+	#info a.linklang .contentD {
+	  padding:2px 4px 3px 24px;
+	  }
+	a.newwindow { 
+	 zoom:1; /* image de BG qui disparait si à la ligne */
+	}
+	#middleCol #searchResults .title {  
+	  zoom:0;
+	  }
+
+/* Agenda */
+/* ___________ IE6 IFRAME FIX ________ */
+
+.datepicker_cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 19em; /*must have*/
+    height: 19em; /*must have*/
+}
+/* fin Agenda */
+
+
+/* Hide from IE5-mac. Indent bug-fix. \*/
+	* html div.galleryThumb140 {
+	  margin-right: 10px;
+	  }
+	* html div.desc {
+	  height: 1%;
+	  margin-left: 0;
+	  } 
+	* html #contacts .nameCol {
+	  margin-right: -3px;
+	  }
+	* html #contacts .nameCol {
+	  margin-right:-3px; ma\rgin-right: 0;
+	}
+	* html #contacts .desc {
+	  height: 1%;
+	  margin-left: 0;
+	  }
+	* html #publication div.thumb140 {
+	  margin-right: 10px;
+	  }
+	* html #publication div.desc {
+	  height: 1%;
+	  margin-left: 0;
+	  }
+	* html #formation .desc {
+	  height: 1%;
+	  margin-left: 0;
+	  }
+	/* Gallery */
+	#gallery a span.placeholder {
+		background:url(../../pictures/blank.gif);
+	}
+	
+	/* fin Gallery */
+/* Css pour tous les formulaires et résultats
+	 de recherche exalead :
+ ----------------------------------------------------- */
+#exalead .seachFieldBox .boxTitle { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_corners.gif); }
+#exalead .seachFieldBox .boxTitle .contentA { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_corners.gif); }
+#exalead .seachFieldBox .boxTitle .contentB { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_center.gif); }
+#exalead .seachFieldBox .boxContent { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_contentl.gif); }
+#exalead .seachFieldBox .boxContent .contentA { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_contentr.gif); }
+#exalead .seachFieldBox .boxContent .contentB { background-image:#dadada url(../../pictures/layout/exalead/bg_ie_seachFieldBox_contentc.gif);}
+#exalead .seachFieldBox .boxFooter { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_corners.gif); }
+#exalead .seachFieldBox .boxFooter .contentA { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_corners.gif); }
+#exalead .seachFieldBox .boxFooter .contentB { background-image:url(../../pictures/layout/exalead/bg_ie_seachFieldBox_center.gif); }
+#resultsContainer .contents {
+    width: 69.5%; /* pour éviter le saut de la col de droite */
+}
+#exalead .filterContainer ul, #exalead .filterContainer li {
+    display: inline;
+}
+#resultsContainer {
+	overflow:hidden;
+}
+#exalead #resultsContainer .rightCol {
+	background:transparent;
+	}
+#exalead #resultsContainer .rightColBg {
+	height:expression(document.body.clientHeight);
+	}
+
+/* End hide from IE5/mac */
+#foot .content {  zoom:1;  }

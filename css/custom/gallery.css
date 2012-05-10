@@ -1,0 +1,236 @@
+/* ============================================= */
+/* page de présentation des galeries             */
+/* ============================================= */
+/* règles retirées de layout.css */
+/* Boites flottantes					 */
+/* ----------------------------------------------------- */
+
+/* règles standard uniquement utilisées en barebone */
+/* ----------------------------------------------------- */
+body { margin:0; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:small; }
+img { border:0; }
+a img { border-style:none; }
+p {	margin:0 0 1em; }
+dl, ul, ol { margin-bottom:1em; margin-top:0; }
+.clear {clear:both; line-height:0; font-size:0; height:0;}
+/* --------------- FIN règles barebone ----------------- */
+
+
+#gallery {
+	width: 100%;
+	font-size:1em;
+	float:left;
+	margin-bottom:20px;
+	padding-top:10px;
+}
+#gallery ul, #gallery li,
+#middleCol #gallery ul, #middleCol #gallery li {
+	position:relative;
+	margin:0;
+	padding: 0;
+	list-style:none;
+	display:block;
+}
+#gallery a:hover, #gallery a:focus, #gallery a:active {
+	outline:none !important;
+}
+/* ============================================= */
+/* affichage des albums                          */
+/* ============================================= */
+#gallery li {
+	text-align:center;
+	width:220px;
+	float:left;
+}
+#gallery li div {
+	padding:1px 30px 40px;
+	position:relative;
+}
+#gallery li a {
+	position:relative;
+	display:block;
+	width:100%;
+	margin:5px auto;
+}
+/* simule la hauteur du dossier */
+/* l'image thumbnail ne se trouve pas à l'intérieur à cause du bug IE6+7 sur les liens en span */
+#gallery a span.placeholder {
+	display:block;
+	z-index:10;
+	position:relative;
+	width:100%;
+	margin:auto;
+	height:125px;
+}
+
+#gallery a {
+	text-decoration:none;
+	cursor:pointer;
+	background:url(../../pictures/layout/gallery/bg-folder.png) bottom center no-repeat;
+	background-position:bottom center;
+}
+#gallery a:hover span.title {
+	text-decoration:underline;
+	color:#f60;
+}
+#gallery a span.title {
+	display:block;
+	position:relative;
+	padding-top:0;
+	margin:0;
+	padding: 0;
+	height:5em;
+	background:none;
+	font-size:0.9em;
+	font-weight:bold;
+	line-height:normal;
+	vertical-align:bottom;
+}
+#gallery a span.title span {
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+#gallery a span.thumbnail {
+	position:absolute;
+	z-index:0;
+	bottom:0;
+	left:34px;
+	width:94px; /* largeur de l'image 90px + bortures 4px */ 
+	margin-bottom:17px;
+	overflow:hidden;
+}
+#gallery a span.thumbnail img {
+	border-style:solid;
+	border-width:2px;
+}
+#gallery .legendGallery {
+	display:block;
+	position:relative;
+	height:5.5em;
+	margin:0 13px;
+	padding:0;
+	color:#333;
+	text-align:left;
+	font-size:0.8em;
+	line-height:normal;
+}
+#gallery .legendGallery span {
+	display:block;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+/* ============================================= */
+/* visualisation d'un album                      */
+/* ============================================= */
+
+#gallery .inside {
+  padding: 30px;
+	border:1px solid #ccc;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+	background-color:#ededed;
+	line-height:normal;
+}
+#gallery .inside li, #middleCol #gallery .inside li {
+	text-align:center;
+	width:100%;
+	padding:1px;
+	margin-bottom:20px;
+	background-color:#FFF;
+  box-shadow: 1px 1px 4px #bababa;
+  -moz-box-shadow: 2px 2px 4px #bababa;
+  -webkit-box-shadow: 2px 2px 4px #bababa;
+}
+#gallery .inside a {
+	background:none;
+	display:inline;
+	width:auto;
+	height:auto;
+	margin:auto;
+}
+#gallery .inside a:hover img, #gallery .inside a:focus img, #gallery .inside a:active img {
+	border:0;
+}
+#gallery .inside a span {
+	display:inline;
+	width:auto;
+	padding-top:0;
+	margin:auto;
+}
+#gallery .inside li .thumbnail {
+	float:left;
+	padding:8px 0;
+	width:180px;
+}
+#gallery .inside .thumbnail img {
+	border:0;
+	max-width:140px;
+	height:auto;
+	max-height:140px;
+	background-position:center center;
+}
+#gallery .inside .thumbnail a:hover img, #gallery .inside .thumbnail a:focus img, #gallery .inside .thumbnail a:active img {
+	border:0;
+}
+#gallery .inside li .thumbnail .imageLegend {
+	padding:8px 20px;
+	text-align:left;
+	font-size:0.85em;
+}
+#gallery .inside li .caption {
+	display:block;
+	background:none;
+	padding:8px 0;
+	margin:0 160px 0 180px;
+	text-align:left;
+	border:none;
+}
+#gallery .inside li .tools, #middleCol #gallery .inside li .tools {
+	float:right;
+	width:150px;
+	padding-top:2em;
+	font-size:0.85em;
+}
+#gallery .inside .tools li, #middleCol #gallery .inside .tools li {
+	text-align:left;
+	float:none;
+	width:auto;
+	padding:1px 25px 1px 5px;
+	margin-bottom:0;
+	background:none;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+#gallery .inside li .tools a {
+	padding:0;
+	display:block;
+	padding:0 0 0 40px;
+	text-align:left;
+	line-height:3.4em;
+}
+#gallery .inside li .tools li.download a {
+	background:url(../../pictures/layout/gallery/ico-download.gif) center left no-repeat;
+}
+#gallery .inside li .tools li.geolocalize a {
+	background:url(../../pictures/layout/gallery/ico-geolocalize.gif) center left no-repeat;
+	border-top:1px solid #9e9e9e;
+}
+
+#gallery .inside h2 {
+	position:relative;
+	margin:0;
+	padding:0 0 8px 0;
+	height:auto;
+	color:#000;
+	border:none;
+}
+#gallery .inside .imageCopyright {
+	padding:0 0 10px 0;
+	font-size:0.8em;
+}

@@ -1,0 +1,44 @@
+<div id="gallery">
+<npsobj name1="parent.objClass" value2="standard_language_root" condition="isEqual">
+ <npsobj table="toclist" columns="3" direction="horizontal">
+   <div><h2><npsobj insertvalue="var" name="title" /></h2><npsobj insertvalue="anchor" name="self"><npsobj list="homepageImageLink"><npsobj insertvalue="image" name="self" /></npsobj></npsobj>
+   <br /><span class="legendGallery"><npsobj insertvalue="var" name="description" /></span>
+   </div>
+ </npsobj>
+ <br class="clear" />
+</npsobj>
+
+<npsobj name="galleryLink" condition="isNotEmpty">
+  <npsobj modifyvar="set" varname="l_sizeThumb">_140_thumb</npsobj>
+  <npsobj modifyvar="set" varname="l_sizeNormal">_460_thumb</npsobj>
+<npsobj modifyvar="set" varname="toto">
+  <npsobj list="galleryLink">
+   <npsobj list="destination.children">
+    <npsobj name1="name" value2="_thumb" condition="matches" negate="">
+     <npsobj modifyvar="append" varname="l_image" name="self" />
+    </npsobj>
+   </npsobj>
+  </npsobj>
+</npsobj>
+
+  <npsobj table="l_image" columns="4" direction="horizontal">
+    <npsobj modifyvar="set" varname="l_pathThumb"><npsobj name="parent.prefixPath" insertvalue="var" /><npsobj name="name" insertvalue="var" /><npsobj name="l_sizeThumb" insertvalue="var" /></npsobj>
+	<npsobj modifyvar="set" varname="l_pathRelativeThumb"><npsobj insertvalue="var" name="initial.id" destination="@export.l_pathThumb" formatter="buildRelativePath" /></npsobj>
+   	<npsobj modifyvar="set" varname="l_pathNormal"><npsobj name="parent.prefixPath" insertvalue="var" /><npsobj name="name" insertvalue="var" /><npsobj name="l_sizeNormal" insertvalue="var" /></npsobj>
+	<npsobj modifyvar="set" varname="l_pathRelativeNormal"><npsobj insertvalue="var" name="initial.id" destination="@export.l_pathNormal" formatter="buildRelativePath" /></npsobj>
+	<div class="galleryThumb">
+	 <a href="@l_pathRelativeNormal" rel="highslide"><npsobj context="@l_pathThumb"><npsobj insertvalue="image" name="self" alt="@title" /></npsobj></a>
+  	 <div class="highslide-caption">
+	   <npsobj context="@l_pathNormal">
+	    <npsobj list="pictureLink" length="1">
+	     <npsobj name="destination.copyright_fr" condition="isNotEmpty"><span class="imageCopyright">Copyright : <npsobj insertvalue="var" name="destination.copyright_fr" /></span><br /></npsobj>
+	     <npsobj name="destination.description_fr" condition="isNotEmpty"><span class="imageDescription"><npsobj insertvalue="var" name="destination.description_fr" /></span></npsobj>
+		</npsobj>
+	   </npsobj>
+	 </div>
+	</div>
+  </npsobj>
+
+</npsobj>
+</div>
+<npsobj modifyvar="set" varname="var_showRelatedLinks">no</npsobj>

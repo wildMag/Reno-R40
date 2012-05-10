@@ -1,0 +1,453 @@
+﻿/* -----------------------------------------------------
+                 Styles for agenda
+----------------------------------------------------- */
+
+#agenda .ical {
+	background:transparent url(../../pictures/layout/agenda/ico_ical.gif) left center no-repeat;
+	line-height:2em;
+	padding:0.5em 0 0.5em 25px;
+}
+
+
+#agendaNav {
+	float: right;
+	width: 20em;
+	margin-bottom: 1em;
+}
+#agendaBody {
+	margin: 0 21em 10px 0px;
+}
+
+/* results  (#agendaBody)
+------------------------------------------ */
+
+#contentBody .list {
+	border-bottom:1px solid #0e557c;
+}
+#contentBody #agendaBody ul, #contentBody #agendaBody li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#agendaBody li {
+	background: url(../../pictures/layout/agenda/bg_sepline1.gif) top left repeat-x;
+}
+#middleCol #contentBody #agendaBody ul li.upcomming { list-style-type: none !important; } 
+#agendaBody .date span {
+	display:block;
+}
+#agendaBody .date {
+	background:transparent url(../../pictures/layout/agenda/bg_sepline2.gif) top right no-repeat;
+	font-weight:bold;
+	font-size:1em;
+	color:#1373a8;
+}
+#agendaBody .date .contentA {
+	background:#fff url(../../pictures/layout/agenda/bg_bullet.gif) center left no-repeat;
+	padding-top:1px;
+	padding-left:20px;
+}
+#agendaBody .date .contentC {
+	padding:4px 0;
+}
+#agendaBody li .content {
+	margin:0;
+	padding:2px 5px 1em 20px;
+	font-size:0.8em;
+	line-height:1.3em;
+	background:#e6f2f9;
+}
+#agendaBody .strapLine {
+	color:#426200;
+	font-weight:bold;
+	font-size:0.8em;
+}
+#agendaBody h2 {
+	margin:0;
+	padding:0;
+}
+#agendaBody h3 {
+	background:none;
+	color:#0e557c;
+	font-size:1.2em;
+	margin:2px 0 2px 0;
+	padding:0;
+}
+#contentBody .pagination {
+	text-align:center;
+	margin-top:1em;
+}
+
+/* calendar & search  (#agendaNav)
+------------------------------------------ */
+
+/* Tabs */
+/* ----------------------------------------------------- */
+#agenda #tabs .header {
+  font-size:90%;
+  line-height:normal;
+  position:relative;
+  }
+#agenda #tabs .header .contentA {
+  display:block;
+  margin-right:0;
+  background:none;
+  }
+#agenda #tabs .header .contentB {
+  display:block;
+  }
+#agenda #tabs .header ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:block;
+  }
+#agenda #tabs .header li {
+  float:left;
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  margin-left:8px;
+  }
+#agenda .tab1 {
+  z-index:90;
+  }
+#agenda .tab2 {
+  z-index:100;
+  }
+#agenda #tabs .header ul .contentA {
+  display:block;
+  margin:0;
+  padding:0;
+  background:url("../../pictures/layout/tabs/left.gif") no-repeat left top;
+  border:0;
+  }
+#agenda #tabs .header ul .contentB {
+  display:block;
+  margin:0;
+  padding:5px 1.3em 4px 1em;
+  background:url("../../pictures/layout/tabs/right.gif") no-repeat right top;
+  }
+#agenda #tabs .header a {
+  display:block;
+  background:#d0f5ee url("../../pictures/layout/tabs/bg.gif") repeat-x left top;
+  text-decoration:none;
+  color:#000;
+  }
+#agenda #tabs .header #current {
+  border-bottom:1px solid #075f51;
+  margin-bottom:-10px;
+  z-index:1000;
+  position:relative;
+  zoom:1;
+  }
+#agenda #tabs .header #current .contentA, #agenda #tabs .header a:hover .contentA {
+  background:url("../../pictures/layout/tabs/left_on.gif") no-repeat left top;
+  }
+#agenda #tabs .header #current .contentB, #agenda #tabs .header a:hover .contentB {
+  background:url("../../pictures/layout/tabs/right_on.gif") no-repeat right top;
+  }
+#agenda #tabs .header #current, #agenda #tabs .header a:hover {
+  background:#075f51 url("../../pictures/layout/tabs/bg_on.gif") repeat-x right top;
+  color:#fff;
+  }
+#agenda #tabs .content {
+  z-index:1;
+  position:relative; /* margin bug opera */
+  background:#fff url("../../pictures/layout/agenda/bg_tabs_content.gif") repeat-x right top;
+  border:0;
+  margin:0;
+  padding:0;
+  clear:both;
+  }
+#agenda #tabs .content .contentA {
+  background:transparent url("../../pictures/layout/agenda/bg_tabs_content_left.gif") left top no-repeat;
+  display:block;
+  border-bottom:0;
+  }
+#agenda #tabs .content .contentB {
+  padding:9px 0px 0px 0px;
+  background:transparent url("../../pictures/layout/agenda/bg_tabs_content_right.gif") no-repeat right top;
+  color:#333333;
+  }
+#agenda #tabs .content .contentC {
+	border-left:1px solid #0f1918;
+	border-right:1px solid #0f1918;
+}
+#agenda #tabs .content h2 {
+  margin:0;
+  padding:0;
+  margin-bottom:1em;
+  border-bottom:1px solid #990000;
+  font-size:95%;
+  color:#900;
+  }
+#agenda #tabs .content p {
+  margin:0;
+  padding:5px 0;
+  }
+#agenda .metaData p {
+  margin:0;
+  padding:0;
+  }
+#agenda .metaData {
+  margin:0 0 1em 0;
+  padding:0;
+  }
+#agenda span.past {
+	color:#333;
+}
+#agenda #tabs .content .navigation {
+  margin:0;
+  padding:20px 0 5px 0;
+  text-align:center;
+  color:#900;
+  }
+#agenda #tabs .content .navigation  .location {
+  padding:0 2em;
+  }
+#agenda #tabs .content .navigation img {
+  vertical-align:middle;
+  }
+#agenda #tabs .footer {
+  background:#fff url("../../pictures/layout/tabs/bg_footer.gif") repeat-x left bottom;
+  height:7px;
+  margin-bottom:1.5em;
+	  font-size:0;
+	  line-height:0;
+  }
+#agenda #tabs .footer .contentA {
+  background:transparent url("../../pictures/layout/tabs/bg_footer_left.gif") no-repeat left bottom;
+  height:7px;
+  }
+#agenda #tabs .footer .contentB {
+  background:transparent url("../../pictures/layout/tabs/bg_footer_right.gif") no-repeat right bottom;
+  height:7px;
+  }
+
+
+
+/* Calendrier 	 */
+/* ----------------------------------------------------- */
+
+#agenda #agendaNav .contour {
+	background:#fff url("../../pictures/layout/agenda/bg_content.gif") top left repeat-x;
+	padding:10px;
+}
+#agenda #agendaNav .contour .contentA {
+	background:#fff url("../../pictures/layout/agenda/bg_contour_tl.gif") top left no-repeat;
+	padding:0;
+}
+#agenda #agendaNav .contour .contentB {
+	background:transparent url("../../pictures/layout/agenda/bg_contour_tr.gif") top right no-repeat;
+	padding:0;
+}
+#agenda #agendaNav .contour .contentC {
+	background:transparent url("../../pictures/layout/agenda/bg_contour_br.gif") bottom right no-repeat;
+	padding:0;
+	border:0;
+}
+#agenda #agendaNav .contour .contentD {
+	background:transparent url("../../pictures/layout/agenda/bg_contour_bl.gif") bottom left no-repeat;
+	padding:10px 6px;
+	position:relative;
+}
+
+#agenda #calendar {
+	padding: 0;
+	margin: 0 auto;
+	border:0;
+	color: #616B76;
+	text-align: center;
+	background-color: #fff;
+	width:auto;
+}
+#agenda thead, #agenda tbody, #agenda tfoot {
+	border:0;
+}
+#agenda .nav, #agenda .nav a {
+	text-decoration: none;
+}	
+#agenda .nav .previous {
+	position:absolute;
+	top:0.9em;
+	left:20px;
+}
+#agenda .nav .next {
+	position:absolute;
+	top:0.9em;
+	right:20px;
+}
+
+
+#agenda caption {
+	margin: 0 auto;
+	padding: 0;
+	width: auto;
+	color: #0e557c;	 
+	text-align: center;
+}
+
+#agenda th {
+	color: #000;
+	background-color: #fff;
+	padding:0;
+	border:0;
+	border-collapse:collapse;
+	width:1.8em;
+	height:1.8em;
+}
+
+#agenda td {
+	border:0;
+	text-align: center;
+	padding:0;
+	vertical-align:middle;
+}
+#agenda thead tr th {
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+}
+#agenda tbody tr th {
+	text-align:left;
+}
+#agenda thead tr th.weekday, #agenda tbody td.lastrow {
+	border-bottom:1px solid #9fb5cb;
+	border-collapse:collapse;
+}
+#agenda tbody td.saturday, #agenda tbody td.sunday {
+	background-color: #e3f1f9;
+}
+#agenda tbody tr th, #agenda tbody td.sunday {
+	border-right:1px solid #9fb5cb;
+	border-collapse:collapse;
+}
+#agenda td.today {
+	border:1px solid #FF0000;
+}
+
+#agenda tbody td a {
+	vertical-align:middle;
+}
+#agenda td a {
+	display: block;
+	line-height:2em;
+	height:2em;
+}
+#agenda td.weekSelection a {
+	display: inline;
+	line-height:normal;
+	height:auto;
+}
+#agenda td.occupied a {
+	display: block;
+}
+
+#agenda td, #agenda td a:link, #agenda td a:visited {	
+	color: #000;
+}
+#agenda td.out {	
+	color: #616B76;
+}
+#agenda td.out a:link, #agenda td.out a:visited {	
+	color: #438c82;
+}
+
+#agenda td a:hover, #agenda td a:active, #agenda td.out a:hover, #agenda td.out a:active, #agenda td a.selected, 
+#agenda #agendaNav tbody .select td, #agenda #agendaNav tbody .select td a,
+#agenda #agendaNav tbody .selected td, #agenda #agendaNav tbody .selected td a {
+	color: #fff; 
+	background-color:#0e557c;
+}
+#agenda tbody td.weekSelection, #agenda #agendaNav tbody tr.selected td.weekSelection, #agenda #agendaNav tbody tr.select td.weekSelection {
+	color: #000;
+	background: #fff;
+	border-right:1px solid #9fb5cb;
+	padding:0;
+	border-collapse:collapse;
+	width:1.8em;
+	height:1.8em;
+	vertical-align:middle;
+}
+#agenda #agendaNav tbody .selected td.weekSelection a, #agenda #agendaNav tbody .select td.weekSelection a {
+	color: #000;
+	background: #fff;
+}
+
+/* Recherche dans l'agenda 	 */
+/* ----------------------------------------------------- */
+#agenda .agendaSearchForm {
+	padding:10px;
+	background-color:#FFFFFF;
+}
+#agenda .formContent {
+	margin:20px 0 0 0;
+	padding:1em;
+	border:1px solid #9fb5cb;
+	background:#fff url(../../pictures/layout/agenda/bg_search_fieldsets.gif) bottom left repeat-x;
+}
+#agenda .formContent .error {
+	color:#000;
+	background-image:none;
+	padding:0;
+}
+#agenda .formContent .error .label {
+	color:#b90000;
+	font-weight:bold;
+}
+#agenda .formContent .errorText {
+	color:#b90000;
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+#agenda input {
+	width:13em;
+	padding:1px 5px;
+}
+#agenda select {
+	width:14em;
+}
+#agenda div.formContent .label {
+	float:none;
+	position:absolute;
+	top:-1.5em;
+	left:10px;
+	font-weight:bold;
+	font-size:0.9em;
+	width: auto;
+	text-align: right;
+	padding:0.5em;
+	background-color:#FFFFFF;
+}
+#agenda fieldset div.formContent label.label {
+	float:left;
+	position:relative;
+	top:auto;
+	left:auto;
+	font-weight:normal;
+	width: 2.5em;
+	text-align: left;
+	padding:0;
+	background-color:transparent;
+}
+#agenda fieldset div.formContent .formw {
+	float:none;
+	text-align: left;
+}
+#agenda fieldset input {
+	width:8em;
+	margin-right:1em;
+}
+#agenda .agendaSearchForm .submit {
+	width:91px;
+	height:26px;
+	margin:0 auto;
+	padding:0;
+	border:0;
+}
+#agenda .agendaSearchForm .formButtons {
+	text-align:left;
+	padding-top:1em;
+	padding-left:1em;
+}

@@ -1,0 +1,130 @@
+/* Navigation principale
+ ----------------------------------------------------- 
+ Navigation thematique + subnav
+ Navigation transversale + subnav
+ ----------------------------------------------------- */
+
+#thematicNav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#thematicNav ul li {
+	border-bottom:1px solid #D7DDE6;
+	margin:0;
+	padding:0;
+}
+#thematicNav ul li ul li {
+	border:0;
+	margin:0;
+}
+/* Main Navigation 
+	   Si l'aspect des elements de navigation varie de categorie
+	   en categorie, on commence par fixer les preferences 
+	   generales comme l'espacement, la taille, la font etc... 
+ ------------------------------------------------------- */
+#leftCol a, #leftCol .navOn a {
+	font-weight:bold;
+	font-size:90%;
+	text-decoration:none;
+	text-transform:uppercase;
+	position:relative;
+	display:block;
+	background-color:#3C615E;
+	background-image:url(../../pictures/layout/leftnav/shared/bg_buttons.gif);
+	background-repeat:repeat-x;
+	color:#fff;
+	padding:7px 5px 10px 8px;
+}
+#leftCol a:hover, #leftCol a:active, #leftCol a:focus, #leftCol .navOn a, #leftCol .navOn a:hover, #leftCol .navOn a:active {
+	background:#294341;
+}
+#transversalNav a:hover, #transversalNav a:active, #transversalNav a:focus,
+#transversalNav .navOn a:hover, #transversalNav .navOn a:active, #transversalNav .navOn a:focus, #transversalNav .navOn a {
+	background:#934517;
+}
+/* Navigation transversale								 
+ ----------------------------------------------------- */
+#transversalNav {
+	margin-top:2.5em;
+	list-style:none;
+	overflow:visible;
+	padding:0;
+}
+#transversalNav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#transversalNav ul li {
+	margin:0;
+	padding:0;
+	border-top:1px solid #E88D56;
+	border-bottom:1px solid #97491B;
+}
+#transversalNav a, #transversalNav .navOn a {
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	position:relative;
+	display:block;
+	background-color:#EE6F2A;
+	background-image:url(../../pictures/layout/leftnav/shared/bg_tbuttons.gif);
+	background-repeat:repeat-x;
+	padding:7px 5px 11px 8px;
+}
+/* Navigation de deuxieme niveau						 
+ ----------------------------------------------------- */
+#transversalNav ul li ul li {
+	border:0;
+	margin:0;
+}
+.rubCol {
+	background-color:#c94a07;
+}
+#subNav a {					/* mise a 0 des css predefinis (leftCol a) */
+	font-weight:normal;
+	font-size:100%;
+	text-decoration:none;
+	text-transform:none;
+	position:relative;
+	display:block;
+	background:none;
+}
+#subNav {
+	color:#333;
+	background-color:#FFF;
+	font-size:100%;
+}
+#subNav a:link, #subNav a:visited, #subNav a:active {  
+	border-bottom:1px solid #fff;
+	color:#333;
+	text-decoration:none;
+	padding:5px 0 5px 15px;
+}
+#subNav a:hover, #subNav .subNavOn a:hover, #subNav a:active, #subNav a:focus {
+	text-decoration:underline;
+	padding-left:15px;
+	color:#993300;
+	background:#E5F2F1 url(../../pictures/layout/leftnav/shared/bullet.gif) top left no-repeat;
+}
+#subNav .subNavOn {  
+	color:#993300;
+	background:#E5F2F1 url(../../pictures/layout/leftnav/shared/bullet.gif) top left no-repeat;
+	}
+#subNav .subNavOn a:link, #subNav .subNavOn a:visited, #subNav .subNavOn a:active, #subNav .subNavOn a:focus {  
+	color:#993300;
+}
+#subNav ul {
+	background:#81A19E;
+	margin:0;
+	padding:0 0 15px;
+}
+#subNav li {
+	display:block;
+	width:100%;
+	background-color:#BEDEDC;
+	color:#333;
+	margin:0;
+	padding:0;
+}

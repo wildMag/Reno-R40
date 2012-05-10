@@ -1,0 +1,370 @@
+/* Css pour tous les formulaires du site :
+	 Contact
+     Feed-back
+	 Newsletter
+	 Recherche avancée 
+	 Envoyer la page par e-mail
+ ----------------------------------------------------- */
+
+/* Css communs
+ ----------------------------------------------------- */
+
+form, ul p {
+	margin:0;
+	padding:0;
+}
+input, textarea, select {
+	color:#4B637D;
+	font-size:100%;
+}
+input[type="text"], .inputtext {
+	border:1px solid #7f9db9;
+}
+.smaller {
+	font-size:0.8em;
+	line-height:1.2em;
+}
+.labelHide {
+	display:none;
+}
+
+fieldset .formContent {
+	border:1px solid #ccc;
+}
+.formContent {
+	margin:0;
+	padding:1em;
+	position:relative;
+}
+.formContent .formContent {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+div.formContent .label {
+	float:left;
+	padding-right:0.5em;
+	text-align:right;
+	width:10em;
+}
+div.formContent span.formw {
+	display:block;
+	margin:0 0 5px;
+	text-align:left;
+	vertical-align:top;
+}
+div.formContent .radiobutton, div.formContent .checkbox {
+	margin:0 0.5em 0 0;
+	padding:0;
+	vertical-align:middle;
+	width:14px;
+}
+div.formContent .selectBox {
+	margin:0.3em 0 0;
+	padding:0;
+	vertical-align:text-bottom;
+}
+div.formContent .textarea {
+	margin:0.6em 0 0;
+	padding:0;
+}
+.submit {
+	background:#2f173b url("../../pictures/layout/body/shared/bg_formbuttons.gif") top left repeat-x;
+	border:1px outset #914ab6;
+	color:#FFF;
+	font-size:90%;
+	height:2em;
+	outline:0;
+}
+.pathnav {
+	font-size:80%;
+}
+.nofieldset {
+	border:0;
+	border-style:solid;
+	margin:0;
+	padding:0;
+}
+.nofieldset .formContent {
+	border:0;
+}
+.nofieldset legend {
+	font-size:0 !important;
+	left:-10000px;
+	line-height:0 !important;
+	position:absolute !important;
+	top:-10000px;
+}
+fieldset {
+	border:0;
+	display:block;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+fieldset legend, .legendlike, div.feedbackForm h2 {
+	color:#532D65;
+	font-size:1em;
+	font-weight:bold;
+	margin:0;
+	padding:0 7px;
+	position:relative;
+	white-space:normal;
+}
+div.dateLines .selectbox {
+	vertical-align:middle;
+}
+
+
+/* Contact
+ ----------------------------------------------------- */
+.contactForm {
+	margin-left:0;
+	padding:1em;
+	position:relative;
+}
+div.contactForm .formButtons {
+	margin:0;
+	padding:1em 0 0;
+}
+.contactForm form.confirm {
+	margin-left:-1em;
+}
+
+/* Feed-back
+ ----------------------------------------------------- */
+div.feedbackForm .formContent {
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #946BA3;
+	border-right-color: #C6B0CE;
+	border-bottom-color: #C6B0CE;
+	border-left-color: #C6B0CE;
+}
+div.feedbackForm .formContent .formContent {
+	border:0;
+}
+div.feedbackForm h2 {
+	background:none;
+	margin-top:1em;
+}
+div.feedbackForm legend {
+	color:#000;
+	font-size:1em;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
+div.feedbackForm .label {
+	display:block;
+	float:none;
+	padding-right:0;
+	text-align:left;
+	width:auto;
+}
+div.feedbackForm .formw {
+	display:block;
+	padding-bottom:1em;
+}
+div.feedbackForm .formButtons {
+	margin-top:1.5em;
+}
+
+/* Newsletter
+ ----------------------------------------------------- */
+div.newsletterForm .formContent {
+	margin:0;
+	padding:0;
+	position:relative;
+}
+div.newsletterForm .label {
+	float:left;
+	padding-right:0.5em;
+	text-align:right;
+	width:10em;
+}
+
+/* Recherche avancée
+ ----------------------------------------------------- */
+.dateLines {
+	float:left;
+	line-height:150%;
+}
+div.dateLines p {
+	margin:0;
+	padding:0 0 8px;
+}
+div.searchForm .formContent, fieldset.advSearch2 .formContent {
+	border:1px solid #ccc;
+}
+div.searchForm .label {
+	float:left;
+	text-align:left;
+	width:19em;
+}
+div.searchForm hr {
+	clear:left;
+}
+div.searchForm #between, div.searchForm #nimpcand {
+	float:left;
+	margin-right:0.4em;
+}
+fieldset.advSearch {
+	width:37em;
+}
+fieldset.advSearch div.content {
+	margin:1em 10em 1em 0;
+	padding:0;
+}
+fieldset.advSearch .formContent {
+	height:5em;
+	margin-bottom:1em;
+	margin-left:0;
+	padding:1em;
+	position:relative;
+}
+fieldset.advSearch .submit {
+	bottom:0;
+	position:absolute;
+	right:-8em;
+}
+.advSearch2 .formContent {
+	margin-bottom:1em;
+	margin-left:0;
+	padding:10px;
+}
+div.searchForm .advSearch2 .label {
+	display:block;
+	width:27em;
+}
+fieldset.advSearch2 legend, fieldset.advSearch2 .legendlike {
+	color:#2F6EAC;
+}
+.advSearch2 .formContent .help {
+	float:left;
+	font-size:90%;
+	padding-left:1em;
+	width:45%;
+}
+.advSearch2 .formContent .formw {
+	float:left;
+	text-align:left;
+	width:12.5em;
+}
+.advSearch2 .formContent hr {
+	background-color:#4774B0;
+	border:0;
+	clear:left;
+	color:#4774B0;
+	height:1px;
+	margin:10px 0;
+	position:relative;
+}
+.advSearch2 .formContent #categories {
+	float:left;
+}
+
+/* Résultats de recherche
+ ----------------------------------------------------- */
+#searchResults {
+	padding-top:1em;
+	width:100%;
+	border-color:#D6E1EF;
+}
+#searchResults .size {
+	font-size:80%;
+	font-weight:normal;
+	text-decoration:none;
+	white-space:nowrap;
+}
+#searchResults .description {
+	line-height:120%;
+}
+.searchnav {
+	margin-top:0.5em;
+	text-align:center;
+}
+#searchResults .pathnav {
+	color:#523B5C;
+	font-size:80%;
+}
+#searchResults .date {
+	color:#000;
+}
+#searchResults .title, #searchResults .title a {
+	color:#036;
+}
+#searchResults .title {
+	font-weight:bold;
+}
+#searchResults .format {
+	vertical-align:middle;
+}
+#searchResults .date {
+	font-size:80%;
+	font-weight:normal;
+}
+#searchResults ol li {
+	margin-bottom:1.5em;
+}
+#searchResults a span.size, #searchResults a {
+	text-decoration:none;
+}
+#searchResults a span.text {
+	text-decoration:underline;
+}
+
+/* Envoyer la page par e-mail
+ ----------------------------------------------------- */
+.sendLink {
+	font-size:80%;
+}
+div.sendForm div.formContent {
+	padding:0;
+}
+div.sendForm span.formw {
+	display:block;
+	margin:0 0 5px;
+	text-align:left;
+	vertical-align:top;
+}
+div.sendForm .label {
+	float:left;
+	padding-right:0.5em;
+	text-align:right;
+	width:25em;
+}
+div.sendForm .clear, div.formContent .clear {
+	line-height:0.5em;
+}
+div.sendForm .formButtons {
+	margin:0;
+	padding:1em 0;
+}
+
+
+
+/* Erreurs
+ ----------------------------------------------------- */
+.formContent .error p, .formContent .error label, div.feedbackForm .error label, div.feedbackForm legend .error, fieldset.advSearch2 .error legend, fieldset.advSearch2 .error .legendlike {
+	color:#b90000;
+	font-weight:bold;
+}
+.formContent .error input, .formContent .error .selectBox, .formContent .error textarea, .formContent .error select {
+	border:2px solid #b90000;
+}
+.formContent .error input.radiobutton, .formContent .error input.checkbox {
+	border:0;
+}
+.formContent .error {
+	background-image:none;
+	color:#b90000;
+	padding:0;
+}

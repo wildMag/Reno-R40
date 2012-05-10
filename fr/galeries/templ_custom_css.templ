@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="../../css/custom/highslide.css" />
+<link rel="stylesheet" type="text/css" href="../../css/custom/highslide-gallery-css.css" />
+
+<npsobj modifyvar="set" varname="var_sup"><</npsobj>
+<npsobj modifyvar="set" varname="var_if">!--[if lte IE 6]></npsobj>
+<npsobj name="var_sup" insertvalue="var" /><npsobj name="var_if" insertvalue="var" />
+  <link rel="stylesheet" href="../../css/custom/highslide-ie6.css" media="screen,print" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="../../scripts/gallery/highslide-full-min.js"></script>
+<npsobj context="../../pictures/layout/gallery/index.html"><npsobj modifyvar="set" name="path" varname="l_highslide_path" /></npsobj>
+<npsobj modifyvar="set" varname="l_highslide_path"><npsobj insertvalue="var" name="initial.id" destination="@export.l_highslide_path" formatter="buildRelativePath" /></npsobj>
+<npsobj modifyvar="set" varname="l_buffer"><npsobj insertvalue="var" name="l_buffer" />hs.graphicsDir = '</npsobj>
+<npsobj modifyvar="set" varname="l_buffer"><npsobj insertvalue="var" name="l_buffer" /><npsobj insertvalue="var" name="l_highslide_path" />'</npsobj>
+<script type="text/javascript"><npsobj insertvalue="var" name="l_buffer" /></script>
+<script type="text/javascript" src="../../scripts/gallery/highslide-cfg-lang.js"></script>
+<script type="text/javascript" src="../../scripts/gallery/highslide-cfg.js"></script>

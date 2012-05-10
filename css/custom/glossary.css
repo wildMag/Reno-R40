@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* -----------------------------------------------------
+Styles pour le glossaire
+----------------------------------------------------- */
+#glossary .nav {
+	border:1px solid #ccc;
+	background:#fff;
+	padding:5px;
+	text-align:left;
+	font-family:Arial, Verdana;
+	font-size:110%;
+	line-height:2.1em;
+	font-weight:bold;
+	margin-bottom:2px;
+	float: right;
+	width: 300px;
+	color:#666;
+	margin-left:10px;
+}
+#glossary br.paragraph {
+	margin-bottom:10px;
+}
+a.word:link {
+	color:#0384bd;
+	text-decoration:none;
+	padding:2px;
+	padding-right:15px;
+	background:url(../../pictures/layout-new/icons/glossaire.gif) top right no-repeat;
+}
+a.word:hover {
+	color:#0099cc;
+	padding:2px;
+	padding-right:15px;
+	background:url(../../pictures/layout-new/icons/glossaire.gif) top right no-repeat;
+}
+a.word:visited {
+	color:#014d73;
+	padding:2px;
+	padding-right:15px;
+	background:url(../../pictures/layout-new/icons/glossaire.gif) top right no-repeat;
+}
+#glossary .nav a:link, #glossary .nav a:visited {
+	color:#333;
+}
+#glossary .nav .navhead {
+	border-bottom:1px dotted #999;
+	background:#fff url("../../pictures/layout-new/body/shared/glossairebkg.gif") bottom left repeat-x;
+	padding:5px;
+	text-align:left;
+	color:#10628e;
+	font-weight:bold;
+	margin-bottom:10px;
+	margin:0px;
+}
+#glossary .nav .act a {
+	background:#e9f9ff;
+	border:1px inset #0684b7;
+	color:#10628e;
+	padding:2px;
+	text-decoration:none;
+	font-weight:bold;
+}

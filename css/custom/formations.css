@@ -1,0 +1,116 @@
+/* Formations
+ ----------------------------------------------------- */
+#formation {
+	padding-bottom:2em;
+}
+#formation .title {
+	background:#c7eae7 url("../../pictures/layout/formations/title_bg.gif") bottom left repeat-x;
+	position:relative;
+	border-bottom:1px solid #A8C3C0;
+}
+#formation h2 {
+	position:absolute;
+	bottom:3px;
+	left:70px;
+	background:none;
+	color:#294341;
+	font-weight:bold;
+	font-size:1em;
+	margin:0;
+	padding:0;
+}
+#formation .leftLogo {
+	float:left;
+	margin-right:5px;
+	border:1px solid #A8C3C0;
+	border-bottom:0;
+}
+#formation .rightLogo {
+	float:right;
+	margin-left:5px;
+	border:1px solid #A8C3C0;
+	border-bottom:0;
+}
+div#formation .content {
+	border:1px solid #A8C3C0;
+	border-bottom:0;
+	background:#fff url("../../pictures/layout/formations/content_bg.gif") top left repeat-y;
+	margin:2em 0 0;
+	padding:0;
+}
+div#formation .content .content {
+	border:0;
+	background:none;
+	margin:0;
+	padding:0;
+}
+div#formation .content a, div#formation .content a:link {
+	color:#5B8D88;
+}
+#formation div.content ul ul {
+	list-style-type:circle;
+	margin:0;
+	padding:1em 1em 0 0;
+}
+#formation div.content ul ul li {
+	list-style-type:circle;
+	margin:0 0 0 2em;
+	padding:0 1em 0 0;
+}
+#formation .element {
+	border-bottom:1px solid #A8C3C0;
+	font-size:1em;
+	margin:0;
+	padding:0;
+}
+#formation .nameCol {
+	float:left;
+	width:178px;
+	padding:0;
+}
+#formation .nameCol .content {
+	font-size:0.9em;
+	margin:0;
+	padding:0;
+}
+#formation .nameCol h3 {
+	background:none;
+	color:#5B8D88;
+	font-weight:bold;
+	margin:0 0 0 5px;
+	padding:1em 0 0;
+}
+#formation p {
+	margin:0;
+	padding:1em 1em 0 0;
+}
+#formation .desc {
+	margin:0 0 0 180px;
+	padding:0;
+}
+#formation .desc p {
+	padding-left:1em;
+}
+div#formation .submit {
+	background:#fff url("../../pictures/layout/formations/button_bg.gif") top left no-repeat;
+	width:91px;
+	height:24px;
+	font-weight:bold;
+	border:0;
+}
+#formation .desc .content {
+	margin:0;
+}
+div#formation .content a:visited, div#formation .content a:active, div#formation .content a:hover, div#formation .content a:focus, div#formation .content a:visited:hover {
+	color:#6F6F6F;
+}
+#formation .sep {
+	clear:left;
+	display:block;
+	font-size:1em;
+}
+#formation div.content ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}

@@ -1,0 +1,264 @@
+/* -----------------------------------------------------
+General styles for print media
+----------------------------------------------------- */
+
+/* General elements */
+/* ----------------------------------------------------- */
+body {
+  margin:0;
+  padding:0;
+  background:#fff;
+}
+
+body * {
+	background: transparent !important;
+	}
+
+.noshow {
+	display:none;
+}
+
+/* Header */
+/* ----------------------------------------------------- */
+#hdrSection {width:100%;}
+#hdrSection .logo {
+	top:0;
+}
+#hdrSection .logo img {
+	display:block;
+	margin-left:auto;
+}
+#hdr, #hdr.fr, #hdr.de, #hdr.en {background:none; }
+#helpNav {display:none;}
+	/* Help Navigation */
+	/* ----------------------------------------------------- */
+	#helpNav {
+	  display:none;
+	  }
+
+	/* Informations */
+	/* ----------------------------------------------------- */
+	#info {
+	  display:none;
+		}
+
+	/* Tools Navigation */
+	/* ----------------------------------------------------- */
+	#navTools {
+	  display:none;
+	}
+
+/* Formatting Structure */
+/* ----------------------------------------------------- */
+#wrap {
+  width:100%;
+  }
+#subwrap {
+  margin:0;
+  padding:0;
+  border:0;
+  }
+
+/* Left column */
+/* ----------------------------------------------------- */
+#leftCol {
+  display:none;
+  border:0;
+  }
+	/* Navigation */
+	/* ----------------------------------------------------- */
+
+/* Right column */
+/* ----------------------------------------------------- */
+
+	/* InfoBox in right column */
+	/* ----------------------------------------------------- */
+#rightCol {
+	display:inline;
+	width:100%;
+	float:none;
+}
+#rightCol .rightColContent
+	{
+	padding: 0 20pt;
+	}
+#rightCol h1.showOnPrint {
+	display:block;
+	color:#2E6E82;
+	border-bottom:1px solid #2E6E82;
+	font-size:1.4em;
+	text-transform:none;
+	margin:20px 0;
+}
+.rightBox {  
+  border-width:1px;
+  border-style:solid;
+  border-bottom-width:2px; 
+  }
+
+.rightBoxContent {
+  border-width:1px;
+  border-top-width:0;
+  border-style:solid;
+}
+.rightBoxContent .contentA {
+	padding:0 5px;
+}
+
+/* Middle content column */
+/* ----------------------------------------------------- */
+#middleCol {  
+  width:100%;
+  display:inline;
+  float:none;
+  }
+#middleCol .content {  
+  margin:0;
+  }
+html>body #middleCol{
+  width:100%;
+  }
+  
+#contentBody { color:#000; }
+
+	.contextBoxMedium, .contextBoxLarge, .contextBoxRelative {
+	  }
+	.contextBoxTitle {
+	  color:#c94a07;
+	  border-bottom:1px solid #c94a07;
+	  }
+	/* Identity  */ 
+	/* ----------------------------------------------------- */
+	#identity {  
+		display:none;
+       }
+	/* Links */
+	/* ----------------------------------------------------- */
+	a.topOfPage { display:none; }
+	.breadcrumb { display:none; }
+	.print, .send { display:none; }
+
+	#middleCol h1 { 
+	  border-bottom-width:1pt;
+	  border-bottom-style:solid;
+		font-size:140%;
+	 }
+
+	#standaloneGalleryMenu { 
+	}
+	/* Publication */
+	/* ----------------------------------------------------- */
+	.orderBox {
+	  border:1px solid #999;
+	}
+	.orderBox .orderBoxContent { border:0;}
+
+	/* Download section */
+	/* ----------------------------------------------------- */
+	#relatedLinkBox { 
+	  margin:0;
+	  }
+	#relatedLinkBox .relatedLinkContent { 
+	  border-width:1pt;
+	  border-style:solid;
+	}
+	#relatedLinkBox .relatedLinkContent .contentA, #relatedLinkBox .relatedLinkContent .contentb { 
+		border:0;
+	}
+	#relatedLinkBox h2 { 
+	  color : #35A9B3;
+	  padding-left:15px;
+	  }
+
+	.subcategoriesTitle h2 { 
+	  margin: 0 0 0 0;
+	  padding:0 0 0 20px;
+	  text-indent:-20px;
+	  list-style-position:inside;
+	  display:list-item;
+	  list-style-image:url("../../pictures/layout/subcategories/subcategory1.gif");
+	  }
+	.subcategoriesContent {
+	  border-width:0;
+	  border-top-width:1px;
+	  border-style:solid;
+	  margin-right:0;
+	  padding-left:10px;
+	}
+	.subcategoriesContent .contentB {
+	  padding:0 0 0 15px;
+	  border-left:1pt solid #D1E3E1;
+	  }
+	ul.subcategoriesList {
+	  margin:0;
+	  padding:0;
+	  }
+	ul.subcategoriesList li {
+	  margin:0;
+	  padding:0 0 0 15px;
+	  text-indent:-15px;
+	  list-style-position:inside;
+	  list-style-image:url("../../pictures/layout/subcategories/bullet.gif");
+	  }
+	.level{
+	  margin-left:0;
+	  display:inline;
+	  padding-left:10px;
+	  }
+	#publication {
+	   overflow:visible;
+	   display:inline;
+	}
+	#publication .progressbar .on, #publication .progressbar .recapOn {
+	color:#A64A07;
+	}
+	#standaloneGalleryMenu, #standaloneGalleryHorizontal, #standaloneGallery {
+	   overflow:visible;
+	}
+	.submit, input.submit {
+	  border:2px solid;
+	  } 
+/* ----------------------------------------------------- */
+/* Onglets 	 */
+/* ----------------------------------------------------- */
+body #middleCol #tabs .header #current .contentA, body #middleCol #tabs .header a:hover .contentA {
+  border-bottom:3px solid #545454;
+  }
+body #middleCol #tabs .content {
+  border:1px solid #333;
+  }
+
+/* Generic */
+/* ----------------------------------------------------- */
+.none, .textVersion, .skiplinks {display:none;}
+.printHide {display:none;}
+.printOnly {display:block;}
+#middleCol h1.printTitle {
+	display:block;
+	color:#3A5772;
+	border-bottom-width:0pt;
+	margin-bottom:0.5em;
+}
+.topOfPage {  display:none;}
+.thumbnailL, .thumbnailR {
+border:1px solid #999;
+	  }
+  
+/* Footer */
+/* ----------------------------------------------------- */
+#LM #foot .content, #LMR #foot .content {
+  width:100%;
+  margin:0;
+  padding:0;
+  }
+#foot .content {
+  font-size:100%;
+  margin:0;
+  padding:0;
+  color:#000; 
+  }
+#update, #w3c {
+  font-size:100%;
+  color:#999999;
+  margin:0;
+  }

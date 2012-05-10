@@ -1,0 +1,45 @@
+/* -----------------------------------------------------
+Styles spécifiques au site
+----------------------------------------------------- */
+.toolbox pre {
+	display:block;
+	white-space:pre;
+	font-size:90%;
+	border:1px solid #999999;
+	background:#CCCCCC;
+}
+.toolbox td pre {
+	border:0;
+	background:transparent;
+	font-size:100%;
+	margin:0;
+}
+div.toolbox .formContent {
+	border:1px solid #aaa;
+}
+div.toolbox div.formContent .label {
+	float:left;
+	padding-right:0.5em;
+	text-align:right;
+	width:12em;
+}
+div.toolbox div.formContent span.formw {
+	display:block;
+	margin:0 0 5px;
+	text-align:left;
+	vertical-align:top;
+}
+div.toolbox .formButtons {
+	margin:0;
+	padding:1em 0 0;
+}
+
+.dateInlineSelect #selectMonth {
+	width:5em;
+}
+.dateInlineSelect #selectDay {
+	width:4em;
+}
+.dateInlineSelect #selectYear {
+	width:5em;
+}

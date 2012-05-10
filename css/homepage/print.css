@@ -1,0 +1,91 @@
+/* -----------------------------------------------------
+Homepage styles for print media
+FileName:    print.css
+----------------------------------------------------- */
+
+/* Header Section */
+/* ----------------------------------------------------- */
+	  
+	/* Banner */
+	/* ----------------------------------------------------- */
+	#banner {  
+	  background:#fff url("../../pictures/layout/homepage/bannerbg.jpg");
+	  width:100%;
+	  height:55px;
+	  }
+
+/* Intro text */
+/* ----------------------------------------------------- */
+#intro {
+	display:none;
+}
+
+/* Horizontal Navigation 5 Menu Items */
+/* ----------------------------------------------------- */
+#wrap { 
+	display:none;
+	}
+#nav {  
+	display:none;
+  }
+
+#Hfoot {display:none;}
+
+#Ccontent .middleCol
+	{
+	width:100%;
+	float:none;
+	}
+
+	/* Right Section */
+	/* ----------------------------------------------------- */
+#Ccontent #rightCol {
+	display:block;
+	width:100%;
+	float:none;
+}
+#Ccontent #rightCol .rightColContent
+	{
+	padding:0 50px;
+	}
+#rightCol h1.showOnPrint {
+	display:block;
+	color:#2E6E82;
+	border-bottom:1px solid #2E6E82;
+	font-size:1.4em;
+	text-transform:none;
+	margin:20px;
+}
+#rightCol .rightBox h1 {
+	color:#69B2CA;
+}
+.rightBoxContent {
+	border:1px solid #B4C9DD;
+}
+.rightBoxContent .contentA {
+	padding:0 5px;
+}
+/* Other */
+/* ----------------------------------------------------- */
+.icon { vertical-align:middle; }
+ 
+.strapLine {
+  font-size:80%;
+  font-weight:bold;
+}
+
+.presentActualites {
+  font-size:80%;
+}
+	
+/* Footer */
+/* ----------------------------------------------------- */
+#foot {
+  margin-right:0px;
+  }
+#foot .contentA {
+  background:url(../../pictures/layout/homepage/bg_footer_left.gif) bottom left no-repeat;
+  }
+#foot .copyright {
+  margin:0 0 0 0;
+  }

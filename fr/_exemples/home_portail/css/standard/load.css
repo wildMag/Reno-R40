@@ -1,0 +1,8 @@
+/* -----------------------------------------------------
+Loading CSS files for screen media
+----------------------------------------------------- */
+@import url("../../../../home_portail/css/custom/custom.css");
+@import url("../custom/layout.css");
+@import url("../custom/navigation.css");
+@import url("../custom/forms.css");
+@import url("master.css");

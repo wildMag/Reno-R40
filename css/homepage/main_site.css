@@ -1,0 +1,70 @@
+/* Home Content section 
+ ----------------------------------------------------- */
+#homeContentZone h1 {
+	border-bottom:0;
+	font-size:100%;
+	font-weight:bold;
+	line-height:110%;
+	margin-top:0;
+}
+#homeContentZone h2 {
+	border-bottom:0;
+	font-size:100%;
+	line-height:110%;
+	background:none;
+	border:0;
+	display:inline;
+	font-weight:bold;
+	margin-top:20px;
+	padding:0;
+}
+#homeContentZone h2 .date {
+	color:#333;
+	font-size:80%;
+	font-weight:normal;
+	line-height:190%;
+	text-transform:none;
+}
+#homeContentZone h4 {
+	color:#666;
+}
+#homeContentZone .thumbnail {
+	border:1px solid #7C99B5;
+	float:left;
+	margin-right:1em;
+	width:180px;
+}
+#homeContentZone hr {
+	margin:20px 0;
+	padding:0;
+}
+#homeContentZone .headline .icon {
+	margin-right:8px;
+}
+#homeContentZone .headline a.strapLine {
+	font-size:95%;
+	text-decoration:none;
+}
+#homeContentZone .headline a.strapLine:hover, #homeContentZone h2 a:link, #homeContentZone h2 a:visited, #homeContentZone h2 a:active, #homeContentZone h2 a:hover, #homeContentZone h2 a:visited:hover {
+	text-decoration:underline;
+}
+#homeContentZone h2 a:link, #homeContentZone h2 a:visited {
+	color:#3C73A4;
+	text-decoration:underline;
+}
+#homeContentZone h2 a:active, #homeContentZone h2 a:hover, #homeContentZone h2 a:visited:hover {
+	color:#4D90CD;
+	text-decoration:underline;
+}
+#homeContentZone h2 .subTitle {
+	font-size:90%;
+}
+#homeContentZone h3 {
+	color:#2F6EAC;
+}
+#homeContentZone .more {
+	margin-top:1em;
+}
+#homeContentZone .text {
+	margin:0;
+}

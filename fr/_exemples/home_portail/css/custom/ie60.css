@@ -1,0 +1,219 @@
+
+	.ieOnly {display:block;}
+	body #wrapper { zoom:1; }
+	#contentBody div, #rightCol div, #rightCol2 div, #leftCol div {
+	  zoom:1; /* hasLayout bug IE */
+	}
+	.logo {right: -1px;}
+	a span {cursor:pointer;}
+#hdrSection .logo {
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pictures/layout/header/fr/portail_luxinnovation.png');
+		/* path is not relative to CSS file but to document use absolute path to avoid problems */
+}	
+body .illustration00 {  
+    background:#e6e0ea;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pictures/layout/homepage/illustration00.png');
+  }
+body .illustration01 {  
+    background:#e6e0ea;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pictures/layout/homepage/illustration01.png');
+  }
+body .illustration02 {  
+    background:#e6e0ea;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pictures/layout/homepage/illustration02.png');
+  }
+body .illustration03 {  
+    background:#e6e0ea;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pictures/layout/homepage/illustration03.png');
+  }
+body #navH .content .footer .contentA {
+	background:url(../../../../home_portail/pictures/layout/homepage/bg_menu_footerr_ie.gif) bottom right no-repeat;
+}
+#navH #block_6 h2, #navH #block_6 h2 a, #navH #block_6 span, #navH #block_6 .footer, #navH #block_6 .footer .contentA, #navH #block_6 .footer .contentB {
+		zoom:1;
+}
+#navH #block_6 .footer {
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pictures/layout/homepage/bg_tmenu_footerl.png');
+}
+body #navH #block_6 .footer, body #navH #block_6 .footer .contentA, body #navH #block_6 .footer .contentB {
+		zoom:1;
+		font-size:0;
+}
+#navH li {
+    zoom:1;
+}	
+	li.element {
+	  zoom:1; /* hasLayout bug IE */
+	}
+	.printSend { margin-top:8px;}
+	#leftCol a span  {	zoom:1; }
+	#subNav li {  
+	  zoom:1; /* hasLayout bug IE */
+	  position:relative; /* peekaboo bug fix IE6 */
+	  }
+	#subNav a:link, #subNav a:visited, #subNav a:active {
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	#subNav a:hover, #subNav .subNavOn a:hover  {  
+	  zoom:1; /* hasLayout bug IE */
+	  }
+	#middleCol, #rightCol {
+	  position:relative;
+	}
+	fieldset.advSearch .submit {
+	  right:-10em;
+	  }
+	.advSearch { font-size:90%; }
+	.thumbnailL a .copyright, .thumbnailR a .copyright {
+	  cursor:pointer;
+   	  }
+	.thumbnailL .copyright, .thumbnailR .copyright {
+	  margin-top:-1.5em;
+   	  }
+	fieldset legend {
+	  left: -.5em;
+	}
+	.logo, .logoGouv, #helpNav .content, #helpNav { display:block; zoom:1; }
+	#helpNav .skiplinks {content:"dsfa"; zoom:1; height:1.2em;}
+	#helpNav .content { display:inline; }
+	#publication .descWithThumbnail, #publication .metaData {
+	  zoom:0;
+	  display:inline;
+	}
+    .orderBoxContent .langRow{
+      zoom:1;
+    }
+	#agendaNav #tabs {
+		padding-left: 0.5em;
+	}
+	#publication .step1 fieldset legend, #publication .step3 fieldset legend {
+	   margin-left:-5px;
+	}
+	#publication div.basketTable .deleteCol {
+	   width:10.5em;
+	}
+	.orderBoxContent a.button, .orderBoxContent a.button:link, .orderBoxContent a.button:visited, .orderBoxContent a.button:hover { 
+		font-size:0.8em;
+	}
+	.orderBoxContent a.button, .orderBoxContent a.button .contentA, .orderBoxContent a.button .contentB,
+	.orderBoxContent a.button .contentC, .orderBoxContent a.button .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	.orderBoxContent a.button .contentD, .orderBoxContent a.button .contentD, .orderBoxContent a.button .contentD {
+	  padding:2px 8px 5px 4px;
+	  }
+	#publication div.groupTable .tr {
+	   right:-1px;
+	}
+	#publication div.basketTable a.button, #publication div.basketTable a.button:link, #publication div.basketTable a.button:visited, #publication div.basketTable a.button:hover { 
+		font-size:0.8em;
+	    padding:0;
+	}
+	#publication div.basketTable .total .text {
+	   padding-bottom:3em;
+	}
+	#publication div.basketTable a.calculate, #publication div.basketTable a.calculate:link, #publication div.basketTable a.calculate:visited, #publication div.basketTable a.calculate:visited:hover, #publication div.basketTable a.calculate:hover { 
+		font-size:0.6em;
+	    padding:0;
+		position:relative;
+		margin-bottom:5px;
+	}
+	#publication div.basketTable a.button, #publication div.basketTable a.button .contentA, #publication div.basketTable a.button .contentB,
+	#publication div.basketTable a.button .contentC, #publication div.basketTable a.button .contentD {
+	  padding:0;
+	  }
+	#publication div.basketTable a.button .contentD, #publication div.basketTable a.button .contentD, #publication div.basketTable a.button .contentD {
+	  padding:4px 4px 8px 4px;
+	  }
+	.orderBoxContent a.address, .orderBoxContent a.address .contentA, .orderBoxContent a.address .contentB,
+	.orderBoxContent a.address .contentC, .orderBoxContent a.address .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	#publication div.basketTable a.address, #publication div.basketTable a.address .contentA, #publication div.basketTable a.address .contentB,
+	#publication div.basketTable a.address .contentC, #publication div.basketTable a.address .contentD {
+	  padding:0;
+	  display:block;
+	  }
+	#publication div.basketTable a.address .contentD, #publication div.basketTable a.address .contentD, #publication div.basketTable a.address .contentD {
+		font-size:0.9em;
+	  padding:4px 8px 8px 4px;
+	  }
+	#publication div.shippingAddress, #publication div.billingAddress {
+	   position:relative;
+	   margin:0;
+	}
+/* pour les leins : principaux portails publics ; langues ; recherche avancee
+ */
+	#info a:link, #info a:visited, #info a:hover { 
+	  text-decoration:none;
+	  padding:0;
+	}
+	#info a.linkppp .contentA, #info a.linkppp .contentB,
+	#info a.linkppp .contentC, #info a.linkppp .contentD,
+	#info a.linklang .contentA, #info a.linklang .contentB,
+	#info a.linklang .contentC, #info a.linklang .contentD,
+	#info a.linksearch .contentA, #info a.linksearch .contentB,
+	#info a.linksearch .contentC, #info a.linksearch .contentD {
+	  padding:0;
+	  }
+	#info a.linkppp .contentD, #info a.linklang .contentD, #info a.linksearch .contentD {
+	  padding:2px 6px 2px 28px;
+	  }
+	a.newwindow { 
+	 zoom:1; /* image de BG qui disparait si à la ligne */
+	}
+	#middleCol #searchResults .title {  
+	  zoom:0;
+	  }
+
+/* Agenda */
+/* ___________ IE6 IFRAME FIX ________ */
+
+.datepicker_cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 19em; /*must have*/
+    height: 19em; /*must have*/
+}
+/* fin Agenda */
+
+/* Hide from IE5-mac. Indent bug-fix. \*/
+	* html div.galleryThumb140 {
+	  margin-right: 10px;
+	  }
+	* html div.desc {
+	  height: 1%;
+	  margin-left: 0;
+	  } 
+	* html #contacts .nameCol {
+	  margin-right: -3px;
+	  }
+	* html #contacts .nameCol {
+	  margin-right:-3px; ma\rgin-right: 0;
+	}
+	* html #contacts .desc {
+	  height: 1%;
+	  margin-left: 0;
+	  }
+	* html #publication div.thumb140 {
+	  margin-right: 10px;
+	  }
+	* html #publication div.desc {
+	  height: 1%;
+	  margin-left: 0;
+	  }
+	* html #formation .desc {
+	  height: 1%;
+	  margin-left: 0;
+	  }
+ /* End hide from IE5/mac */
+#foot .content {  zoom:1;  }

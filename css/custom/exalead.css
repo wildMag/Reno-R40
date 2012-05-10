@@ -1,0 +1,404 @@
+/*
+	 Css pour tous les formulaires et résultats
+	 de recherche exalead :
+ ----------------------------------------------------- */
+
+/* Css communs
+ ----------------------------------------------------- */
+
+#exalead {
+	padding-top:2em;
+}
+#exalead .pagination {
+	display:block;
+	text-align:center;
+	padding-right:30%;
+}
+#exalead em {
+	background:#dddcff !important;
+	color:#053146 !important;
+	padding:2px 4px;
+	display:inline-block;
+	font-style:normal;
+}
+#exalead a em {
+	text-decoration:underline;
+}
+#exalead .linklist li {
+	list-style:none;
+	margin:0;
+	padding:0 0 1em 18px;
+	background:url(../../pictures/layout/exalead/bullet2.gif) left 5px no-repeat;
+}
+#exalead .linklist {
+  margin-left:36%;
+}
+#exalead .linklistleft {
+  margin-left:0;
+	float:left;
+	width:34%;
+}
+#resultsContainer .selectBox {
+	border:1px solid #fff;
+	display:block;
+}
+#resultsContainer .selectBox select {
+	border:1px solid #a5acb2;
+	width:100%;
+}
+
+#exalead .resultsTitle .contentB { padding:0 13px 0 6px; }
+
+
+/* Context Box
+ ----------------------------------------------------- */
+#exalead .contextBoxMedium {
+	margin-top:0;
+	width: 30%;
+	background:none;
+	border:none;
+}
+#exalead .contextBoxMedium .contextBoxTitle { background:url(../../pictures/layout/exalead/bg_contextbox_titlel.gif) top left no-repeat; text-transform:uppercase; padding:0; color:#371E44; line-height:0.8em; font-size:0.9em; }
+#exalead .contextBoxMedium .contextBoxTitle .contentA { background:url(../../pictures/layout/exalead/bg_contextbox_titler.gif) top right no-repeat; padding:0 13px; }
+#exalead .contextBoxMedium .contextBoxTitle .contentB { background:#f6efea url(../../pictures/layout/exalead/bg_contextbox_titlec.gif) top right repeat-x; padding:12px 3px 10px 4px; }
+#exalead .contextBoxMedium .contextBoxContent { background:url(../../pictures/layout/exalead/bg_contextbox_contentl.gif) top left repeat-y; padding:0; }
+#exalead .contextBoxMedium .contextBoxContent .contentA { background:url(../../pictures/layout/exalead/bg_contextbox_contentr.gif) top right repeat-y; padding:0 1px 0 2px; }
+#exalead .contextBoxMedium .contextBoxContent .contentB { background:#efedef url(../../pictures/layout/exalead/bg_contextbox_contentc.gif) bottom right repeat-x; padding:1px 15px; position:relative; border-top:1px solid #ed6000; }
+#exalead .contextBoxMedium .contextBoxFooter, #exalead .contextBoxMedium .contextBoxFooter .contentA, #exalead .contextBoxMedium .contextBoxFooter .contentB {
+	height:41px;
+	font-size:1px;
+	line-height:0;
+	 padding:0;
+}
+#exalead .contextBoxMedium .contextBoxFooter { background:url(../../pictures/layout/exalead/bg_contextbox_footl.gif) top left no-repeat; }
+#exalead .contextBoxMedium .contextBoxFooter .contentA { background:url(../../pictures/layout/exalead/bg_contextbox_footr.gif) top right no-repeat; padding:0 14px; }
+#exalead .contextBoxMedium .contextBoxFooter .contentB { background:url(../../pictures/layout/exalead/bg_contextbox_footc.gif) top right repeat-x; }
+#exalead .contextBoxMedium ul {
+	padding:5px 0;
+}
+#exalead .contextBoxMedium li {
+	list-style:none;
+	margin:0;
+	padding:0.5em 0 0 14px;
+	background:url(../../pictures/layout/exalead/bullet.gif) left 8px no-repeat;
+}
+#exalead .contextBoxMedium p {
+    margin: 1em 0 0;
+}
+/* Page de résultats
+ ----------------------------------------------------- */
+
+#exalead.results .resultsTitle { background:#f6f6f5 url(../../pictures/layout/exalead/bg_resultstitlec.png) top right repeat-x; }
+#exalead.results .resultsTitle .contentA { background:url(../../pictures/layout/exalead/bg_resultstitlel.png) top left no-repeat; }
+#exalead.results .resultsTitle .contentB { background:url(../../pictures/layout/exalead/bg_resultstitler.png) top right no-repeat; }
+#exalead.results .resultsTitle .seachFieldBox { float:none; }
+
+
+#resultsContainer {
+	width: 100%;
+	position: relative;
+	border-top:1px solid #cecece;
+}
+#resultsContainer.default .filterContainer {
+	border-bottom:1px solid #cacaca
+}
+#resultsContainer .contents {
+	float: left;
+	width: 70%;
+}
+#resultsContainer .filterContainer {
+	background: #f0f0f0 url(../../pictures/layout/exalead/bg_filters.png) bottom left repeat-x;
+}
+#resultsContainer .filterContainer .title {
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	margin:0;
+	padding:8px 15px;
+}
+#resultsContainer .filterContainer .filters {
+	display:block;
+	margin:0;
+	padding:8px 15px;
+	padding-left:11em;
+}
+#resultsContainer.technologies .filterContainer .filters {
+    padding: 8px 15px 8px 13em;
+}
+#resultsContainer .totalContainer {
+	background: #fff url(../../pictures/layout/exalead/bg_total.png) left center repeat-x;
+	border-bottom:1px solid #cacaca;
+}
+#resultsContainer .totalContainer p {
+	display:block;
+	margin:0;
+	padding:8px 15px;
+}
+#resultsContainer .totalContainer strong, #resultsContainer .filterContainer strong {
+	font-size:0.9em;
+}
+#resultsContainer .sortContainer {
+	position:relative;
+	font-size:1em;
+	background: #e1dfe4 url(../../pictures/layout/exalead/bg_sort.png) bottom left repeat-x;
+	border-bottom:1px solid #cfc7d6;
+}
+#resultsContainer .sortContainer .col1 {
+	display:block;
+	float:left;
+	width:48%;
+	margin:0;
+}
+#resultsContainer .sortContainer .col2 {
+	float:right;
+}
+#resultsContainer .sortContainer .content {
+	display:block;
+	margin:0;
+	padding:8px 15px;
+}
+#resultsContainer .sortContainer .selectBox {
+	display:inline-block;
+}
+#resultsContainer .sortContainer .selectBox select {
+	width:auto;
+}
+/* Fond de la colonne de droite*/
+#resultsContainer .rightColBg {
+	width: 30%;
+	background: #f0f0f0 url(../../pictures/layout/exalead/bg_rightcol.png) top left repeat-y;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+#resultsContainer .rightCol {
+	position: relative;
+	float: right;
+	font-size:1em;
+	width: 30%;
+	z-index:99;
+}
+#resultsContainer .rightCol .contentB {
+	padding:8px 15px;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #cfcfcf;
+}
+#resultsContainer .rightCol .header {
+	background: #e3e3e3 url(../../pictures/layout/exalead/bg_rb_title.png) left 50% repeat-x;
+	margin-left:1px;
+}
+#resultsContainer .rightCol .header h2 {
+	background:none;
+	color: #000;
+	font-weight: bold;
+	line-height:1.5em;
+	margin: 0;
+	padding:0;
+	font-size:0.75em;
+	text-transform:uppercase;
+}
+#resultsContainer .rightCol .date {
+	background: #e5e5e5;
+	margin-left:1px;
+}
+#resultsContainer .rightCol .date .contentB {
+	padding: 18px 15px;
+}
+#resultsContainer .rightCol .date label, #resultsContainer .rightCol .filter .title, #resultsContainer .rightCol .date legend {
+	display:block;
+	color: #333;
+	font-size:0.85em;
+	font-weight:bold;
+	margin-top:0;
+	margin-bottom:5px;
+}
+#resultsContainer .rightCol .date legend {
+	color: #333;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	white-space: normal;
+}
+#resultsContainer .rightCol .date fieldset .formContent {
+	border: none;
+	padding: 5px 0 0;
+}
+#resultsContainer .rightCol .date fieldset .label {
+	width: 2em;
+	padding-top:6px;
+	text-align:left;
+	font-weight:normal;
+	font-size:1em;
+}
+#resultsContainer .rightCol .date fieldset .formw {
+	padding-top:4px;
+	position:relative;
+}
+#resultsContainer .rightCol .date fieldset .dateRange {
+	width:50%;
+	margin:0;
+	padding-right:27px;
+}
+img.datepicker {
+	display: inline-block;
+	margin: 1px 0 0 -22px;
+	padding: 0 !important;
+	position: relative;
+	vertical-align:text-top;
+}
+#resultsContainer .rightCol .filter {
+	margin-left:1px;
+}
+#exalead #resultsContainer .rightCol .filter .linklist {
+	margin-left: 0;
+	margin-bottom:5px;
+}
+#exalead #resultsContainer .rightCol .filter .linklist li {
+	background: url("../../pictures/layout/exalead/bullet.gif") no-repeat scroll left 4px transparent;
+	padding: 0 0 0.5em 16px;
+}
+#exalead .results {
+	padding:20px 20px 20px 12px;
+}
+#exalead .filterContainer ul, #exalead .filterContainer li  {
+	list-style:none;
+	display:inline-block;
+	margin:0;
+}
+#exalead .filterContainer li a {
+	display:block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	background:#ddd7e9 url(../../pictures/layout/exalead/icon_filter_off.gif) right center no-repeat;
+	border: 1px solid #b8b2c4;
+	color: #000000;
+	line-height: auto;
+	margin: 0 4px 4px 0;
+	padding: 2px 5px 2px;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:0.8em;
+	white-space:nowrap;
+}
+#exalead .filterContainer li a:hover, #exalead .filterContainer li a:focus {
+	background:#ddd7e9 url(../../pictures/layout/exalead/icon_filter_on.gif) right center no-repeat;
+	border: 1px solid #7d7789;
+}
+#exalead .filterContainer li a span {
+    margin-right: 20px;
+}
+#exalead .filterContainer p.reset {
+    margin:0;
+		padding:2px 0 0;
+		text-align:right;
+}
+#exalead .results .linklist {
+	margin-left: 0;
+	margin-bottom:5px;
+	font-size:0.9em;
+}
+#exalead .results .linklist a {
+	font-weight:bold;
+}
+#exalead .results .linklist p {
+	margin:2px 0;
+}
+#exalead .results .linklist .date {
+	margin-bottom:2em;
+}
+#exalead .results .linklist .published {
+	display:inline-block;
+	width:13em;
+}
+
+/* Boîte de recherche
+ ----------------------------------------------------- */
+#exalead .seachFieldBox {
+	float:left;
+	width:65%;
+}
+#exalead .seachFieldBox .searchField, #exalead .dateRange {
+	border:1px solid #dcdcdc;
+	border-top:1px solid #c1c1c1;
+	border-right:1px solid #bab9b9;
+	background:#fff url(../../pictures/layout/exalead/bg_searchfield.gif) top right no-repeat !important;
+	margin-top:3px;
+	margin-bottom:2px;
+	line-height:2em;
+	width:95%;
+	padding:4px 3px 3px;
+}
+#exalead .seachFieldBox .submit {
+	position:absolute;
+	top:0;
+	right:20px;
+	background: none;
+	border: none;
+	color: #000;
+	font-size: 90%;
+	height:auto;
+	outline: 0 none;	
+}
+#exalead .seachFieldBox .boxTitle label { position:absolute; top:-5000px; left:-5000px; overflow:hidden; width:1px; height:1px; }
+#exalead .seachFieldBox .boxTitle, #exalead .seachFieldBox .boxTitle .contentA, #exalead .seachFieldBox .boxTitle .contentB {
+	height:14px;
+	font-size:1px;
+	line-height:0;
+}
+#exalead .seachFieldBox .boxTitle { background:url(../../pictures/layout/exalead/bg_seachFieldBox_corners.png) top left no-repeat; }
+#exalead .seachFieldBox .boxTitle .contentA { background:url(../../pictures/layout/exalead/bg_seachFieldBox_corners.png) right -83px no-repeat; padding:0 14px; }
+#exalead .seachFieldBox .boxTitle .contentB { background:url(../../pictures/layout/exalead/bg_seachFieldBox_center.png) top right repeat-x; }
+#exalead .seachFieldBox .boxContent { background:url(../../pictures/layout/exalead/bg_seachFieldBox_contentl.png) top left repeat-y; }
+#exalead .seachFieldBox .boxContent .contentA { background:url(../../pictures/layout/exalead/bg_seachFieldBox_contentr.png) top right repeat-y; padding:0 2px; }
+#exalead .seachFieldBox .boxContent .contentB { background:#dadada url(../../pictures/layout/exalead/bg_seachFieldBox_contentc.png) top right repeat-x; padding:0 170px 1px 15px; position:relative; }
+#exalead .seachFieldBox .boxFooter, #exalead .seachFieldBox .boxFooter .contentA, #exalead .seachFieldBox .boxFooter .contentB {
+	height:38px;
+	font-size:1px;
+	line-height:0;
+}
+#exalead .seachFieldBox .boxFooter { background:url(../../pictures/layout/exalead/bg_seachFieldBox_corners.png) left -44px no-repeat; }
+#exalead .seachFieldBox .boxFooter .contentA { background:url(../../pictures/layout/exalead/bg_seachFieldBox_corners.png) right -127px no-repeat; padding:0 14px; }
+#exalead .seachFieldBox .boxFooter .contentB { background:url(../../pictures/layout/exalead/bg_seachFieldBox_center.png) right -14px repeat-x; }
+#exalead.results .seachFieldBox .boxFooter, #exalead.results .seachFieldBox .boxFooter .contentA, #exalead.results .seachFieldBox .boxFooter .contentB {
+	height:30px;
+}
+
+
+/* Erreurs
+ ----------------------------------------------------- */
+ 
+#exalead .seachFieldBox .error {
+	background:none;
+	font-weight: bold;
+	padding:0;
+	font-size:0.9em;
+}
+#exalead .seachFieldBox .error .searchField {
+	margin-bottom:10px;
+}
+#exalead .seachFieldBox .error strong {
+	display:block;
+}
+
+.formContent .error p, .formContent .error label, div.feedbackForm .error label, div.feedbackForm legend .error, fieldset.advSearch2 .error legend, fieldset.advSearch2 .error .legendlike {
+	color:#b90000;
+	font-weight:bold;
+}
+.formContent .error input, .formContent .error .selectBox, .formContent .error textarea, .formContent .error select {
+	border:2px solid #b90000;
+}
+.formContent .error input.radiobutton, .formContent .error input.checkbox {
+	border:0;
+}
+.formContent .error {
+	background-image:none;
+	color:#b90000;
+	padding:0;
+}

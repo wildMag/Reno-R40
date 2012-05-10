@@ -1,0 +1,142 @@
+/* -----------------------------------------------------
+   Styles pour la page actualites
+----------------------------------------------------- */
+
+
+
+#middleCol #listActu {
+	list-style:none;
+	margin:0 0 1em;
+	padding:0;
+}
+#middleCol #listActu .strapLine {
+	font-size:80%;
+	font-weight:bold;
+}
+#middleCol #listActu li {
+	line-height:95%;
+	background:url("../../pictures/layout/body/shared/bullet2.gif") top left no-repeat;
+	margin:1em 0;
+	padding:0 0 0 15px;
+}
+
+#middleCol #listActu li a{
+	color: #3535a8;	
+}
+
+
+#middleCol #listActu li span.text{
+	color: #005d6a;
+	font-weight: bold;
+}
+#middleCol #listActu .text {
+	font-weight:normal;
+	font-size:80%;
+}
+
+
+
+/* -----------------------------------------------------
+   Styles pour la page actualites en images
+----------------------------------------------------- */
+.listNews{
+	margin-top:0.5em;
+}
+
+.listNews .headline {
+	color:#20426F;
+	font-weight:bold;
+	font-size:100%;
+	margin:0px;
+	padding:0px;
+
+}
+.listNews .maintitle {
+	padding:0;
+	margin-bottom:10px;
+	border:0;
+}
+.listNews .maintitle .printSend {
+}
+.listNews .headline a.categorie {
+	text-decoration:none;
+}
+.listNews .headline a.categorie:hover {
+	text-decoration:underline;
+}
+.listNews .headline span.categorie {
+	color:#20426F;
+	text-transform:uppercase;
+}
+.listNews .headline .icon {
+	margin-right:8px;
+}
+.listNews .headline .strapLine {
+	font-size:95%;
+	text-decoration:none;
+	color:#5a6c00;
+	margin-bottom:0px;
+}
+.listNews .headline a.strapLine:hover {
+	text-decoration:underline;
+}
+#contentBody .listNews h2 {
+	display:inline;
+	font-weight:bold;
+	font-size:105%;
+	border:0;
+	background:none;
+	padding:0;
+}
+.listNews h2 a:link, #Ccontent .middleCol h2 a:visited {
+	text-decoration:underline;
+}
+.listNews h2 a:active, 
+#Ccontent .middleCol h2 a:hover, 
+#Ccontent .middleCol h2 a:visited:hover {
+	text-decoration:underline;
+}
+.listNews h2 .date {
+	color:#3c3c5a;
+	font-size:70%;
+	line-height:190%;
+	text-transform:none;
+font-weight:normal;
+}
+.listNews h2 .subTitle {
+	font-size:80%;
+}
+.listNews .text-thumbnail {
+	margin:0 0 0 0;
+margin-top:0.8em;
+margin-left:165px;
+}
+
+.listNews .text-nothumbnail {
+	margin:0 0 0 0;
+margin-top:0.8em;
+}
+
+.listNews .more {
+margin-top: 1em;
+margin:2em;
+font-size:0.7em;
+
+
+}
+.listNews .thumbnail {
+width:150px;
+float:left;
+text-align:center;
+margin-right:15px;
+margin-top:0.8em;
+}
+
+
+.listNews hr {
+	margin:10px 0;
+	padding:0;
+	height:1px;
+	color:#cfcfcf;
+	border-color:#cfcfcf;
+}

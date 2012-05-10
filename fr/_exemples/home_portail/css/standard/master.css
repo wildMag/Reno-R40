@@ -1,0 +1,396 @@
+/* -----------------------------------------------------
+Base styles for screen media
+FileName:    master.css
+----------------------------------------------------- */
+
+/* General elements */
+/* ----------------------------------------------------- */
+body {
+  margin:0;
+  padding:0;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:small;
+  }
+
+#wrapper {
+  display:block;
+  padding:0 8px 8px 8px;
+  max-width:1100px;
+  margin:auto;
+  }
+  
+/* Header Section */
+/* ----------------------------------------------------- */
+
+#hdrSection {
+  display:block;
+  margin:0;
+  height:80px;
+  width:100%; 
+/*  width:99.9%; */
+  }
+#hdr {
+  position:relative;
+  z-index:0;
+  width:100%;
+  height:80px;
+  }
+
+	/* Help Navigation */
+	/* ----------------------------------------------------- */
+
+	#helpNav {
+	  position:absolute;
+	  padding:0 2px 3px 0;
+	  font-size:80%;
+	  line-height:160%;
+	  top:0px;
+	  right:2px;
+	  width:83%;
+	  }
+	#helpNav .content { 
+	  float:right; 
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#helpNav a {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+
+	/* Informations */
+	/* ----------------------------------------------------- */
+	#info {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  min-height:23px;
+	  margin:0;
+	  position:relative;
+	  width:100%; 
+	/*  width:99.9%; */
+	  z-index:1;
+	  font-size:0.75em;
+	  }
+	#infoLeft {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  float:left;
+	  }
+	#infoLeft:after {
+	  clear:both;
+	  }
+	#infoRight {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  padding-right:6px;
+	  display:block;
+	  text-align:right;
+	  }
+	#info img, #info input {
+	  vertical-align:middle;
+	  }
+	#info input {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  font-size:1em;
+	  }
+	#info a:link, #info a:visited{
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#info a:hover, #info a:visited:hover  {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#info #searchfield {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  width:12em;
+	  }
+	#info a.link:link, #info a.link:visited {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#info span.infoSep {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  font-size:1.4em;
+	  }
+	#info span.infoSepHidden {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  font-size:1.4em;
+	  visibility:hidden;
+	  }
+	#infoRight span.infoSep {
+	  line-height:170%;
+	  /* backslash hack pour IEmac \*/
+	  line-height:130%;
+	  /* end hack */
+	  }
+	#info input.searchButton {
+	  cursor:pointer;
+	  }
+	#info label {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  margin-right:5px;
+	  }
+	#info #searchForm{
+	  margin:0;
+	  padding:0;
+	}
+
+
+	/* Tools Navigation */
+	/* ----------------------------------------------------- */
+	#navTools {
+	  position:relative;
+	  margin:0;
+	  padding:0;
+	  width:100%; 
+	/*  width:99.9%; */
+	  clear:both; /*Opera Mac fix*/
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#navToolsLeft {
+	  position:absolute;
+	  padding: 0.5em 0 0 0;
+	  width:160px;
+	  left:0;
+	  top:0;
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  font-size:75%;
+	  font-weight: bold;
+	  text-decoration: none;
+	  }
+	#navToolsLeft a:link, #navToolsLeft a:visited, #navToolsLeft a:active { 
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  text-decoration:none; 
+	  }
+	#navToolsLeft a:hover, #navToolsLeft a:visited:hover { 
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  text-decoration:underline; 
+	  }
+	#navToolsWrap {
+	  position:relative;
+	  margin:0 0 0 160px;
+	  }
+	#navToolsMiddle {
+	  position:relative;
+	  border:0;
+	  width:100%;
+	  }
+	#navToolsMiddle a:link, #navToolsMiddle a:visited {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  text-decoration: none;
+	  }
+	#navToolsMiddle a:hover, #navToolsMiddle a:visited:hover {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  text-decoration: underline;
+	  }
+	#navToolsMiddleContent {
+	  position:relative;
+	  margin:0;
+	  z-index:10;
+	  font-size:80%;
+	  line-height:200%;
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#navToolsMiddleContent a {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  }
+	#navToolsMiddleContentbg {
+	  position:absolute;
+	  margin:0;
+	  width:100%;
+	  z-index:0;
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+	  font-size:80%;
+	  line-height:200%;
+	  border-bottom-style:solid;
+	  border-bottom-width:1px;
+	  }
+  
+/* Formating structure */
+/* ----------------------------------------------------- */
+#wrap {
+  position:relative;
+  margin:0;
+  padding:0;
+  width:100%; 
+/*  width:99.9%; */
+  z-index:2;
+  }
+#subwrap {
+  margin:0 0 0 160px;
+  padding:0;
+  }
+#M #subwrap, #MR #subwrap {
+	margin:0;
+}  
+
+
+/* Left column */
+/* ----------------------------------------------------- */
+#leftCol {
+  position:absolute;
+  margin:0;
+  padding:0;
+  width:160px;
+  left:0;
+  top:0px;
+  }
+#leftCol .leftColContent {
+  font-size:85%;
+  width:160px;
+  }
+#leftCol #mainNav {
+  padding:0;
+  margin:0;
+  width:160px;
+  }
+#M #leftCol, #MR #leftCol {
+  display:none;
+  }
+#M #leftCol .leftColContent, #MR #leftCol .leftColContent {
+  display:none;
+  }
+
+
+/* Right column */
+/* ----------------------------------------------------- */
+#rightCol {
+  float:right;
+  overflow:hidden;
+  width:29%;
+  margin:0;
+  padding:0;
+  }
+#M #rightCol, #LM #rightCol {display:none;}
+	
+  
+/* Middle content column */
+/* ----------------------------------------------------- */
+#middleCol {  
+  float:left;
+  overflow:hidden;
+  width:70%;
+  margin:0;
+  padding:0;
+  font-size:1em;
+  }
+#middleCol .content {
+  margin:0 15px 0 20px;
+  }
+#M #middleCol, #LM #middleCol {
+  width:100%;
+  }
+#contentBody, #contentBody p {
+  font-size:100%;
+}
+	/* Titles */
+	/* ----------------------------------------------------- */
+	h1 {
+	  font-size: 120%;
+	  }
+	h2 {
+	  font-size: 110%;
+	  }
+	h3 {
+	  font-size: 100%;
+	  }
+	h4 {
+	  font-size: 100%;
+	  }
+/* Generic */
+/* ----------------------------------------------------- */
+.none, legend.none span {
+	position:absolute;
+	top:-5000px;
+	left:-5000px;
+	overflow:hidden;
+	width:1px;
+	height:1px;
+}
+br.none {
+	display:none;
+}
+.icon { vertical-align:middle; }
+a .icon {text-decoration: none;}
+.clear {clear:both; line-height:0; font-size:0; height:0;}
+.clearR {clear:right; line-height:0; font-size:0; height:0;}
+.clearL {clear:left; line-height:0; font-size:0; height:0;}
+.center {text-align:center; margin-left:auto; margin-right:auto;}
+.right {text-align:right;}
+.aleft {
+float:left;
+margin-right:5px;
+margin-bottom:5px;}
+.aright {
+float:right;
+margin-left:5px;
+margin-bottom:5px;}
+.imgCenterText {vertical-align:text-top;}
+img.centerText {vertical-align:middle;}
+img.alignLeft { 
+    float: left; 
+    margin: 4px;
+	margin-right: 13px; 
+}
+img.alignRight { 
+    float: right; 
+    margin: 4px;
+}
+img.alignCenter {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.bold {font-weight:bold;}
+.nomargin {padding:0; margin:0; }
+.aright { float:right;}
+.atexttop { vertical-align: text-top;}
+.atextbottom { vertical-align: text-bottom;}
+.atextmiddle { vertical-align: middle;}
+.error {
+	background-image:url(../../pictures/layout/icons/error.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	color:#b90000;
+	font-weight:bold;
+	padding-left:28px;
+	padding-top:5px;
+	padding-bottom:0px;
+}
+.error ul, .error ol, .error dl {color:#b90000; margin-top:1em; margin-bottom:1em;}
+.errorStar {color: #b90000;font-weight:bold;}
+
+/* Footer */
+/* ----------------------------------------------------- */
+#foot {
+  position:relative;
+  display:block;
+  clear:both;
+  width:100%; 
+/*  width:99.9%; */
+  padding:0;
+  z-index:100;
+  }
+#foot .content {
+  position:relative;
+  z-index:1;
+  }
+#foot, #foot .content, #foot .content p, #foot a, #foot a:link, #foot a:active, #foot a:visited, #foot a:hover, #foot a:visited:hover {
+	  font-family : Verdana, Arial, Helvetica, sans-serif; 
+}
+#update {
+  position:absolute;
+  margin-left:20px;
+  top:-1.5em;
+  left:0;
+  font-family : Verdana, Arial, Helvetica, sans-serif; 
+  }
+
+#M #foot, #LM #foot {
+  }
+#M #foot .content, #MR #foot .content {
+  margin:0;
+  }
+  
+/* remove email field due to google bar */
+/* ----------------------------------------------------- */
+input[type="text"] /* To keep form fields consistent */
+{ background: #fff !important;    
+}
+input[type="select"] /* To keep form fields consistent */
+{ background: #fff !important;    
+}
+  
