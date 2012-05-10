@@ -2,122 +2,146 @@
 /* -----------------------------------------------------
 Styles pour onglets
 ----------------------------------------------------- */
+.tabify-wrapper {
+	width:80%;
+	margin:50px auto;
+}
+.tabify .section { display:none; }
+.tabify { 
+	background:#fff;
+	border: 1px solid #878787;	
+	padding:1em;
+ }
 
-/* ----------------------------------------------------- */
-/* Onglets 	 */
-/* ----------------------------------------------------- */
-#tabs .header {
-  width:100%;
-  font-size:93%;
-  line-height:normal;
-  }
-#tabs .header .contentA {
-  display:block;
-  margin-right:2px;
-  background:#fff url("../../pictures/layout/tabs/bg_alltabs.gif") repeat-x bottom;
-  }
-#tabs .header ul {
-  margin:0;
-  padding:0;
-  list-style:none;
-  display:block;
-  }
-#tabs .header li {
-  float:left;
-  margin:0 3px 0 0;
-  padding:0 0 0 0;
-  font-weight:bold;
-  }
-#tabs .header ul .contentA {
-  display:block;
-  position:relative;
-  margin:0;
-  padding:0;
-  background:url("../../pictures/layout/tabs/left.gif") no-repeat left top;
-  border-bottom:1px solid #333333;
-  }
-#tabs .header ul .contentB {
-  display:block;
-  position:relative;
-  margin:0;
-  padding:5px 15px 4px 6px;
-  background:url("../../pictures/layout/tabs/right.gif") no-repeat right top;
-  }
-#tabs .header a {
-  display:block;
-  background:#e9e9e9 url("../../pictures/layout/tabs/bg.gif") repeat-x left top;
-  text-decoration:none;
-  color:#000;
-  }
-#tabs .header #current {
-  }
-#tabs .header #current .contentA, #tabs .header a:hover .contentA {
-  background:url("../../pictures/layout/tabs/left_on.gif") no-repeat left top;
-  border-bottom:1px solid #545454;
-  }
-#tabs .header #current .contentB, #tabs .header a:hover .contentB {
-  background:url("../../pictures/layout/tabs/right_on.gif") no-repeat right top;
-  }
-#tabs .header #current, #tabs .header a:hover {
-  background:url("../../pictures/layout/tabs/bg_on.gif") repeat-x left top;
-  background-color:#545454;
-  color:#fff;
-  }
-#tabs .content {
-  position:relative; /* margin bug opera */
-  background:#545454 url("../../pictures/layout/tabs/bg_content.gif") repeat-y right top;
-  border-left:1px solid #333;
-  margin:0;
-  padding:5px 7px 0 5px;
-  clear:both;
-  }
-#tabs .content .contentA {
-  background-color:#fff;
-  padding:0;
-  display:block;
-  border-bottom:0;
-  }
-#tabs .content .contentB {
-  padding:14px;
-  color:#333333;
-  }
-#tabs .content h2 {
-  margin:0;
-  padding:0;
-  margin-bottom:1em;
-  border-bottom:1px solid #990000;
-  background:none;
-  font-size:95%;
-  color:#900;
-  }
-#tabs .content p {
-  margin:0;
-  padding:5px 0;
-  }
-#tabs .content .navigation {
-  margin:0;
-  padding:20px 0 5px 0;
-  text-align:center;
-  color:#900;
-  }
-#tabs .content .navigation  .location {
-  padding:0 2em;
-  }
-#tabs .content .navigation img {
-  vertical-align:middle;
-  }
-#tabs .footer {
-  background:url("../../pictures/layout/tabs/bg_footer.gif") repeat-x left bottom;
-  height:8px;
-  margin-bottom:1.5em;
-	  font-size:0;
-	  line-height:0;
-  }
-#tabs .footer .contentA {
-  background:url("../../pictures/layout/tabs/bg_footer_left.gif") no-repeat left bottom;
-  height:8px;
-  }
-#tabs .footer .contentB {
-  background:url("../../pictures/layout/tabs/bg_footer_right.gif") no-repeat right bottom;
-  height:8px;
-  }
+/*-- tabs nav--*/
+
+.tabify-tabs { 
+	margin:0 0 0 15px !important;	
+}
+.tabify-tabs:after {
+	background:#333;
+	bottom:0;
+	content:'';
+	height:1px;
+	left:0;
+	right:0;
+	position:absolute;
+}
+
+.tabify-tabs > li:first-child a{
+	border-left: 1px solid #d7d7d7;
+}
+
+.tabify-tabs > li.active:first-child a{
+	border-left: 1px solid #878787;
+}
+
+.tabify-tabs > li:first-child:before{
+	content:" ";
+	position: absolute;
+	bottom: 0;
+	left: -15px;
+	width: 15px;
+	height: 100%;
+	border: 1px solid #ccc;
+	border-right: none;
+	border-bottom: none;
+	border-radius: 2px 0 0 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	background: #e9f3fb;
+	cursor: default;
+}
+.tabify-tabs > li.active:first-child:before{
+	height: 85%;
+}
+
+
+.tabify-tabs > li{
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	margin:0 !important;
+}
+
+.tabify-tabs > li.tn-add-btn{
+	margin-left: 3px;
+}
+.tabify-tabs > li a{
+
+	line-height: 1em;
+	color: #666666;
+	text-decoration: none;
+	padding: 0.55em 1.35em 0;
+	height:1.7em;
+	position: relative;
+	display: block;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-bottom: none;
+	background: #e9f3fb;
+}
+
+.tabify-tabs > li.tn-add-btn a{
+
+	line-height: 1em;
+	color: #000000;
+	text-decoration: none;
+	padding: 0.55em .55em 0;
+	height:1.7em;
+	position: relative;
+	display: block;
+	border: 1px solid #7fb1d4;
+	border-bottom: none;
+	background: #d1e4f2;
+}
+
+.tabify-tabs > li.is-notified a{
+	padding-right:10px;
+}
+
+.tabify-tabs > li a:hover, .tabify-tabs > li a:focus{
+	border-top-color: #ffcc00;
+	color: #000000;
+}
+
+.tabify-tabs > li.active{	
+	margin-left: -1px;
+}
+
+.tabify-tabs > li.active a{
+	color: #000000;
+	padding: .9em 1.35em 0; 
+	position: relative;
+	bottom: -1px;
+	background: #ffffff;
+	border: 1px solid #878787;
+	border-bottom: 1px solid #ffffff;
+}
+
+.tabify-tabs > li.active a:before, .tabify-tabs > li.active a:after{
+	content:" ";
+	width: 15px;
+	height: inherit;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.tabify-tabs > li:first-child.active a:before, .tabify-tabs > li:first-child.active a:after{
+	cursor: default;
+}
+
+.tabify-tabs > li.active a:before{
+	background: url('./img/layout/body/onglet-shadow.png') right top no-repeat;
+	right: -15px;
+}
+
+.tabify-tabs > li.active a:after{
+	left: -15px;	
+	background: url('./img/layout/body/onglet-shadow.png') left top no-repeat;
+}

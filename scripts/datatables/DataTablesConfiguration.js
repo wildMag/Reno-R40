@@ -50,6 +50,8 @@ $(document).ready(function()
                     "sInfoPostFix": "",
                     "sSearchTitle": "",
                     "sSearch": "Rechercher un numéro de rôle :",
+                    "sFilter": "Filtrer sur :",
+                    "sFilterAll": "Tous les sujets",                          
                     "sUrl": "",
                     "oPaginate": {
                         "sFirst":    "Première",
@@ -64,7 +66,9 @@ $(document).ready(function()
             // @see : http://www.datatables.net/usage/columns
             "aoColumnDefs": [
                 // columns width
-                { "sWidth": "50%", "aTargets": [ 0, 1 ] }
+                //{ "sWidth": "50%", "aTargets": [ 0, 1 ] }
+                { "sType": "date-eu", "aTargets": [ 0 ]  },
+                { "sType": "date-eu", "aTargets": [ 1 ]  }                
 
                 // column searchability
 //                { "bSearchable": false, "aTargets": [ 1, 2 ] },

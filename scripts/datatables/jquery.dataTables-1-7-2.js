@@ -641,8 +641,8 @@
 		 */
 		"date-asc": function ( a, b )
 		{
-			var x = Date.parse( a );
-			var y = Date.parse( b );
+			var x = Date.parse( a ) || Date.parse(a.split(/[.\/-]/).reverse().join('/'));
+			var y = Date.parse( b ) || Date.parse(b.split(/[.\/-]/).reverse().join('/'));
 			
 			if ( isNaN(x) || x==="" )
 			{
@@ -658,8 +658,8 @@
 		
 		"date-desc": function ( a, b )
 		{
-			var x = Date.parse( a );
-			var y = Date.parse( b );
+			var x = Date.parse( a ) || Date.parse(a.split(/[.\/-]/).reverse().join('/'));
+			var y = Date.parse( b ) || Date.parse(b.split(/[.\/-]/).reverse().join('/'));
 			
 			if ( isNaN(x) || x==="" )
 			{

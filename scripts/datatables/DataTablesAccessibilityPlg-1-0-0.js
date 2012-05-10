@@ -193,7 +193,7 @@ var DataTablesAccessibilityPlg = function ( oInit ) {
     var _labelizeFields = function( targets )
     {
         var s = that.fnGetSettings();
-        notLabelized = $("#dataTable_length label").length < 1;
+        notLabelized = $("#dataTable_length label, #dataTable_filter label").length < 1;
         if( notLabelized )
         {
             $("#dataTable_length, #dataTable_filter").wrapInner(document.createElement("label"));

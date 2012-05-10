@@ -78,34 +78,37 @@ $.fn.dataTableExt.oPagination.item_numbers = {
         var firstRecordId, lastRecordId, linkText;
 
         /* Build the dynamic list */
-        for ( i=1 ; i<=totalPage ; i++ )
+        if(totalPage > 1)
         {
-            firstRecordId = ((i-1) * displayLength) + 1;
-            if( i != totalPage )
+            for ( i=1 ; i<=totalPage ; i++ )
             {
-                lastRecordId = firstRecordId + displayLength - 1;
-            }
-            else
-            {
-                lastRecordId = recordsTotal;
-            }
+                firstRecordId = ((i-1) * displayLength) + 1;
+                if( i != totalPage )
+                {
+                    lastRecordId = firstRecordId + displayLength - 1;
+                }
+                else
+                {
+                    lastRecordId = recordsTotal;
+                }
 
-            linkText = "[&nbsp;" + firstRecordId + "&nbsp;-&nbsp;" + lastRecordId +"&nbsp;]";
+                linkText = "[&nbsp;" + firstRecordId + "&nbsp;-&nbsp;" + lastRecordId +"&nbsp;]";
 
-            if ( currentPage != i )
-            {
-                sList += '<a href="#wrapper" class="'
-                       + oClasses.sPageButton
-                       + '" title="pages ' + firstRecordId
-                       + ' - ' + lastRecordId + '"'
-                       + '" targetPage=' + i + '>'
-                       + linkText + '</a> ';
-            }
-            else
-            {
-                sList += '<span class="'
-                       + oClasses.sPageButtonActive
-                       + '">' + linkText + '</span> ';
+                if ( currentPage != i )
+                {
+                    sList += '<a href="#wrapper" class="'
+                           + oClasses.sPageButton
+                           + '" title="pages ' + firstRecordId
+                           + ' - ' + lastRecordId + '"'
+                           + '" targetPage=' + i + '>'
+                           + linkText + '</a> ';
+                }
+                else
+                {
+                    sList += '<span class="'
+                           + oClasses.sPageButtonActive
+                           + '">' + linkText + '</span> ';
+                }
             }
         }
 

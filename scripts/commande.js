@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$(".orderBoxContent input:text").numeric({ decimal: false, negative: false });
 	
-	$(".orderBoxContent").find(".basket_btn").attr("disabled","disabled").addClass("disabled");
+	//$(".orderBoxContent").find(".basket_btn").attr("disabled","disabled").addClass("disabled");
 	$(".orderBoxContent input:text, .orderBoxContent select").change(function(event){ 
 		if(($(this).val()!=0)){
 			$(this).parents(".orderBoxContent").find(".basket_btn").removeAttr("disabled").removeClass("disabled");
